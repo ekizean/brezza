@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import scrollTo from "gatsby-plugin-smoothscroll"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -27,6 +28,8 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <button onClick={() => scrollTo("#menu")}>Meny</button>
+      <button onClick={() => scrollTo("#about")}>Om oss</button>
     </div>
   </header>
 )
