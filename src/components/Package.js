@@ -1,13 +1,14 @@
 import React from "react"
 import DT from "./DT.js"
+import "./Package.css"
 
 const Package = ({ dish }) => {
   const dishName = dish.dishName.split(",")
   const { packageName, price, description, wineName, winePrice } = dish
 
   return (
-    <div className="col-sm-4">
-      <dl className="package-menu--box">
+    <div className="col-sm-4 package-menu--box">
+      <dl>
         <DT name={packageName} price={price} />
         <dd>
           <span className="lower-case gold">

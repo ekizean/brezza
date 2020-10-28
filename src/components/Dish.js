@@ -1,5 +1,6 @@
 import React from "react"
 import DT from "./DT.js"
+import "./Dish.css"
 
 const Dish = ({ dish }) => {
   const { dishName, price, description } = dish

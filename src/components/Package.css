@@ -1,0 +1,9 @@
+.package-menu--box {
+  margin-top: 15px;
+  border: 1px rgb(169, 150, 107) solid;
+  padding: 16px;
+}
+
+.package-menu--box:not(:last-child) {
+  margin-right: 20px;
+}

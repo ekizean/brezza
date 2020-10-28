@@ -1,6 +1,7 @@
 import React from "react"
 import Dish from "./Dish.js"
 import Package from "./Package.js"
+import "./CourseMenu.css"
 
 const CourseMenu = ({ dishes }) => {
   const course = dishes && dishes[0] && dishes[0].course
