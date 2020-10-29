@@ -1,4 +1,5 @@
 import React from "react"
+import "./DT.css"
 
 const DT = ({ name, price }) => {
   return (

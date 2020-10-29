@@ -7,3 +7,7 @@
 .package-menu--box:not(:last-child) {
   margin-right: 20px;
 }
+
+.package-menu--dish {
+  margin: 13px 0;
+}

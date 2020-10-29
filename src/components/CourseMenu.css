@@ -1,3 +1,27 @@
 .row {
   display: flex;
 }
+
+.tab-content {
+  min-height: 300px;
+  margin-bottom: 35px;
+  margin-top: 50px;
+}
+
+.menu-content {
+  margin-top: 22px;
+}
+
+.wine-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.wine-description {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.wine-list {
+  margin-top: 27px;
+}

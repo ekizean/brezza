@@ -1,56 +1,7 @@
-.tab-content {
-  min-height: 300px;
-  margin-bottom: 35px;
-  margin-top: 50px;
-}
-
-.menu-content {
-  margin-top: 22px;
-}
-
-.dish {
-  margin: 20px 0;
-}
-
-.package-menu--dish {
-  margin: 13px 0;
-}
-
 .gold {
   color: rgb(169, 150, 107);
 }
 
-.wine-content {
-  display: flex;
-  flex-direction: column;
-}
-
-.wine-description {
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-.wine-list {
-  margin-top: 27px;
-}
-
-.price {
-  margin-top: 4px;
-  font-size: 0.8rem;
-}
-
-.dish-title {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 8px;
-}
-
 .col-sm-4 {
   width: calc(100% / 3);
-}
-
-@media only screen and (max-width: 700px) {
-  .dish {
-    margin: 7px 0;
-  }
 }

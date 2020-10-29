@@ -1,0 +1,10 @@
+.dish-title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.price {
+  margin-top: 4px;
+  font-size: 0.8rem;
+}
