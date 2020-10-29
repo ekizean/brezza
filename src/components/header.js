@@ -29,7 +29,10 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <button onClick={() => scrollTo("#menu")}>Meny</button>
+      <button onClick={() => scrollTo("#menu")}>Vinprovningar</button>
+      <button onClick={() => scrollTo("#menu")}>Galleri</button>
       <button onClick={() => scrollTo("#about")}>Om oss</button>
+      <button onClick={() => scrollTo("#about")}>Kontakt</button>
     </div>
   </header>
 )
