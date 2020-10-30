@@ -4,7 +4,7 @@ import Package from "./Package.js"
 import "./Dishes.css"
 
 const Dishes = ({ dishes }) => {
-  const course = dishes && dishes[0] && dishes[0].course
+  const type = dishes && dishes[0] && dishes[0].type
 
   function getDishMarkup(dish) {
     if (dish.packageName) {
@@ -17,7 +17,7 @@ const Dishes = ({ dishes }) => {
   const groupSize = 3
   let showingContent
 
-  if (!course) {
+  if (!type) {
     showingContent = (
       <div className="wine-content">
         <span className="wine-description gold lower-case">
@@ -47,10 +47,10 @@ const Dishes = ({ dishes }) => {
       })
   }
 
-  const courseDescriptionPasta = (
+  const typeDescriptionPasta = (
     <i className="lower-case gold">brezzas hemgjorda pasta</i>
   )
-  const courseDescriptionPizza = (
+  const typeDescriptionPizza = (
     <i className="lower-case gold">
       på italienska ingredienser och färsk mozzarella
     </i>
@@ -59,9 +59,9 @@ const Dishes = ({ dishes }) => {
   return (
     <div className="tab-content">
       <div className="container">
-        <h2>{course}</h2>
-        {course == "pasta" && courseDescriptionPasta}
-        {course == "pizza" && courseDescriptionPizza}
+        <h2>{type}</h2>
+        {type == "pasta" && typeDescriptionPasta}
+        {type == "pizza" && typeDescriptionPizza}
         <div className="menu-content">{showingContent}</div>
       </div>
     </div>
