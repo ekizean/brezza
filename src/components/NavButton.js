@@ -1,17 +1,18 @@
 import React from "react"
 import "./NavButton.css"
 
-const NavButton = ({ thisCourse, selectedCourse, clickOnNavButton }) => {
+const NavButton = ({ dishType, selectedDishType, clickOnNavButton }) => {
+  console.log(selectedDishType)
   return (
     <button
       className={`dish-type-button${
-        thisCourse.toLowerCase() === selectedCourse.toLowerCase()
+        dishType.toLowerCase() === selectedDishType.toLowerCase()
           ? " selected"
           : ""
       }`}
-      onClick={() => clickOnNavButton(thisCourse)}
+      onClick={() => clickOnNavButton(dishType)}
     >
-      {thisCourse}
+      {dishType}
     </button>
   )
 }

@@ -6,13 +6,10 @@
   width: calc(100% / 3);
 }
 
-.course-navigator {
+.menu-navigator {
   margin-top: 40px;
   margin-left: 2px;
   margin-right: 2px;
-}
-
-.course-row {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

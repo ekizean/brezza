@@ -9,7 +9,7 @@ class Menu extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      course: "Antipasti",
+      type: "Antipasti",
       menuData: [],
       dishes: [],
     }
@@ -45,46 +45,43 @@ class Menu extends React.Component {
 
   setCurrentDishes = () => {
     const dishes = this.state.menuData.filter(dish => {
-      return dish.course.toLowerCase() == this.state.course.toLowerCase()
+      return dish.type.toLowerCase() == this.state.type.toLowerCase()
     })
 
     this.setState({ dishes })
   }
 
-  clickOnNavButton = course => {
-    this.setState({ course }, () => {
+  clickOnNavButton = type => {
+    this.setState({ type }, () => {
       this.setCurrentDishes()
     })
   }
 
-  getUniqueCourses = () => {
-    const uniqueCourses = new Set()
+  getUniqueDishTypes = () => {
+    const uniqueDishTypes = new Set()
     this.state.menuData.forEach(dish => {
-      uniqueCourses.add(dish.course)
+      uniqueDishTypes.add(dish.type)
     })
-
-    return Array.from(uniqueCourses)
+    return Array.from(uniqueDishTypes)
   }
 
   render() {
-    const navButtons = this.getUniqueCourses()
-    navButtons.push("Vin")
+    const dishTypes = this.getUniqueDishTypes()
+    dishTypes.push("Vin")
 
     return (
       <div className="menu" id="menu">
-        <div className="course-navigator">
-          <div className="course-row">
-            {navButtons.map(navButton => {
-              return (
-                <NavButton
-                  thisCourse={navButton}
-                  clickOnNavButton={this.clickOnNavButton}
-                  selectedCourse={this.state.course}
-                  key={`${navButton}`}
-                />
-              )
-            })}
-          </div>
+        <div className="menu-navigator">
+          {dishTypes.map(dishType => {
+            return (
+              <NavButton
+                dishType={dishType}
+                clickOnNavButton={this.clickOnNavButton}
+                selectedDishType={this.state.type}
+                key={dishType}
+              />
+            )
+          })}
         </div>
         <CourseMenu dishes={this.state.dishes} />
       </div>
