@@ -1,5 +1,5 @@
 import React from "react"
-import CourseMenu from "./CourseMenu.js"
+import Dishes from "./Dishes.js"
 import NavButton from "./NavButton.js"
 import XLSX from "xlsx"
 
@@ -83,7 +83,7 @@ class Menu extends React.Component {
             )
           })}
         </div>
-        <CourseMenu dishes={this.state.dishes} />
+        <Dishes dishes={this.state.dishes} />
       </div>
     )
   }
