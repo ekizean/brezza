@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import About from "../components/about"
-import Menu from "../components/menu"
+import Menu from "../components/Menu/menu"
 
 const IndexPage = () => (
   <Layout>
