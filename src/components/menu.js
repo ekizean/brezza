@@ -3,8 +3,7 @@ import CourseMenu from "./CourseMenu.js"
 import NavButton from "./NavButton.js"
 import XLSX from "xlsx"
 
-import "./menu-content.css"
-import "./menu-navigator.css"
+import "./menu.css"
 
 class Menu extends React.Component {
   constructor(props) {

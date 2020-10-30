@@ -1,9 +1,10 @@
 import React from "react"
+import "./NavButton.css"
 
 const NavButton = ({ thisCourse, selectedCourse, clickOnNavButton }) => {
   return (
     <button
-      className={`course-button${
+      className={`dish-type-button${
         thisCourse.toLowerCase() === selectedCourse.toLowerCase()
           ? " selected"
           : ""
