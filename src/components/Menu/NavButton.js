@@ -2,7 +2,6 @@ import React from "react"
 import "./NavButton.css"
 
 const NavButton = ({ dishType, selectedDishType, clickOnNavButton }) => {
-  console.log(selectedDishType)
   return (
     <button
       className={`dish-type-button${
