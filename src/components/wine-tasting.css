@@ -1,0 +1,28 @@
+.wine-tasting {
+    color: rgb(169, 150, 107);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 0px 100px 0px;
+    background-color: rgb(17, 17, 17);
+    text-align: center;
+}
+
+.wine-tasting--district {
+    border: 1px rgb(169, 150, 107) solid;
+    padding: 30px;
+    min-height: 255px;
+    margin: 15px;
+}
+
+.silver {
+    color: #c9c8bb;
+}
+
+.wine-tasting--main {
+    margin-top: 20px;
+}
+
+.wine-tasting--description {
+    margin: 24px auto;
+}
