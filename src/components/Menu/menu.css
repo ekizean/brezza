@@ -1,16 +1,16 @@
 .gold {
-  color: rgb(169, 150, 107);
+    color: rgb(169, 150, 107);
 }
 
 .col-sm-4 {
-  width: calc(100% / 3);
+    width: calc(100% / 3);
 }
 
 .menu-navigator {
-  margin-top: 40px;
-  margin-left: 2px;
-  margin-right: 2px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }

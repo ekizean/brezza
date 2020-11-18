@@ -1,23 +1,23 @@
 .dish-type-button {
-  color: rgb(169, 150, 107);
-  background-color: rgb(22, 42, 37);
-  text-transform: uppercase;
-  border-radius: 0.25rem;
-  border: none;
-  padding: 8px 20px;
-  font-size: 0.8rem;
-  margin: 0 1px 2px 1px;
+    color: rgb(169, 150, 107);
+    background-color: rgb(22, 42, 37);
+    text-transform: uppercase;
+    border-radius: 0.25rem;
+    border: none;
+    padding: 8px 20px;
+    font-size: 0.8rem;
+    margin: 0 1px 2px 1px;
 }
 
 .dish-type-button:focus {
-  outline: 0;
+    outline: 0;
 }
 
 .dish-type-button:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .selected {
-  color: #c9c8bb;
-  background-color: #580000;
+    color: #c9c8bb;
+    background-color: #580000;
 }

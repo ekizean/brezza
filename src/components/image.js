@@ -14,29 +14,29 @@ import Img from "gatsby-image"
  */
 
 const Image = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      placeholderImage: file(relativePath: { eq: "logo_gold.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
-          }
+    const data = useStaticQuery(graphql`
+        query {
+            placeholderImage: file(relativePath: { eq: "logo_gold.png" }) {
+                childImageSharp {
+                    fluid(maxWidth: 300) {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
         }
-      }
+    `)
+
+    if (!data?.placeholderImage?.childImageSharp?.fluid) {
+        return <div>Picture not found</div>
     }
-  `)
 
-  if (!data?.placeholderImage?.childImageSharp?.fluid) {
-    return <div>Picture not found</div>
-  }
-
-  return (
-    <Img
-      className="divider__logo"
-      fluid={data.placeholderImage.childImageSharp.fluid}
-      alt="logo"
-    />
-  )
+    return (
+        <Img
+            className="divider__logo"
+            fluid={data.placeholderImage.childImageSharp.fluid}
+            alt="logo"
+        />
+    )
 }
 
 export default Image

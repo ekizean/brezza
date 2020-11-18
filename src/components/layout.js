@@ -14,23 +14,23 @@ import Footer from "./footer"
 import "./layout.css"
 
 const Layout = ({ children }) => {
-  return (
-    <>
-      <Header />
-      <div
-        style={{
-          margin: `0 auto`,
-        }}
-      >
-        <main>{children}</main>
-      </div>
-      <Footer />
-    </>
-  )
+    return (
+        <>
+            <Header />
+            <div
+                style={{
+                    margin: `0 auto`,
+                }}
+            >
+                <main>{children}</main>
+            </div>
+            <Footer />
+        </>
+    )
 }
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+    children: PropTypes.node.isRequired,
 }
 
 export default Layout

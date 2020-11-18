@@ -1,13 +1,13 @@
 .dish:not(:last-child) {
-  padding-right: 20px;
+    padding-right: 20px;
 }
 
 .dish {
-  margin: 20px 0;
+    margin: 20px 0;
 }
 
 @media only screen and (max-width: 700px) {
-  .dish {
-    margin: 7px 0;
-  }
+    .dish {
+        margin: 7px 0;
+    }
 }
