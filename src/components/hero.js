@@ -1,7 +1,7 @@
-import React from "react"
-import "./hero.css"
-import Logo from "../../svg/logo.svg"
-import { Link } from "gatsby"
+import React from 'react'
+import './hero.css'
+import Logo from '../../svg/logo.svg'
+import { Link } from 'gatsby'
 
 const Hero = () => (
     <div className="hero">

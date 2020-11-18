@@ -27,9 +27,9 @@ module.exports = {
                 icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
             },
         },
-        "gatsby-plugin-smoothscroll",
+        'gatsby-plugin-smoothscroll',
         {
-            resolve: "gatsby-plugin-react-svg",
+            resolve: 'gatsby-plugin-react-svg',
             options: {
                 rule: {
                     include: /svg/,

@@ -1,10 +1,10 @@
-import React from "react"
+import React from 'react'
 
 const Navbar = () => (
     <div
         style={{
-            height: "700px",
-            background: "coral",
+            height: '700px',
+            background: 'coral',
         }}
     >
         hej

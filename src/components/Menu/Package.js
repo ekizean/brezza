@@ -1,9 +1,9 @@
-import React from "react"
-import DT from "./DT.js"
-import "./Package.css"
+import React from 'react'
+import DT from './DT.js'
+import './Package.css'
 
 const Package = ({ dish }) => {
-    const dishName = dish.dishName.split(",")
+    const dishName = dish.dishName.split(',')
     const { packageName, price, description, wineName, winePrice } = dish
 
     return (
@@ -11,9 +11,7 @@ const Package = ({ dish }) => {
             <dl>
                 <DT name={packageName} price={price} />
                 <dd>
-                    <span className="lower-case gold">
-                        {description && <i>{description}</i>}
-                    </span>
+                    <span className="lower-case gold">{description && <i>{description}</i>}</span>
                     {dishName.map(dish => {
                         return (
                             <div key={dish} className="package-menu--dish">

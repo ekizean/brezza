@@ -1,6 +1,6 @@
-import React from "react"
-import "./divider.css"
-import Image from "./image"
+import React from 'react'
+import './divider.css'
+import Image from './image'
 
 const Divider = () => (
     <div class="divider">

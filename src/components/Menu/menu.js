@@ -1,16 +1,16 @@
-import React from "react"
-import Dishes from "./Dishes.js"
-import NavButton from "./NavButton.js"
-import XLSX from "xlsx"
-import menuData from "./menu-data.json"
+import React from 'react'
+import Dishes from './Dishes.js'
+import NavButton from './NavButton.js'
+import XLSX from 'xlsx'
+import menuData from './menu-data.json'
 
-import "./menu.css"
+import './menu.css'
 
 class Menu extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            type: "Antipasti",
+            type: 'Antipasti',
             menuData: [],
             dishes: [],
         }
@@ -24,16 +24,16 @@ class Menu extends React.Component {
     }
 
     getMenuData() {
-        const url = "./Meny hemsida.xlsx"
+        const url = './Meny hemsida.xlsx'
 
         /* set up async GET request */
         const req = new XMLHttpRequest()
-        req.open("GET", url, true)
-        req.responseType = "arraybuffer"
+        req.open('GET', url, true)
+        req.responseType = 'arraybuffer'
 
         req.onload = e => {
             const data = new Uint8Array(req.response)
-            const workbook = XLSX.read(data, { type: "array" })
+            const workbook = XLSX.read(data, { type: 'array' })
 
             /* DO SOMETHING WITH workbook HERE */
             const first_sheet = workbook.SheetNames[0]
@@ -71,7 +71,7 @@ class Menu extends React.Component {
 
     render() {
         const dishTypes = this.getUniqueDishTypes()
-        dishTypes.push("Vin")
+        dishTypes.push('Vin')
 
         return (
             <div className="menu" id="menu">

@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 
 const Footer = () => (
     <footer>
@@ -22,7 +22,7 @@ const Footer = () => (
                         </a>
                         <a href="mailto:kontakt@brezza.se">
                             <i class="fa fa-envelope-o"></i>
-                            kontakt@brezza.se{" "}
+                            kontakt@brezza.se{' '}
                         </a>
                     </p>
                 </div>
@@ -61,19 +61,11 @@ const Footer = () => (
                             id="insta"
                         ></a>
                     </p>
-                    <img
-                        class="AAA"
-                        src="./images/AAA.png"
-                        alt="Highest Credit Rating Bisnode"
-                    />
+                    <img class="AAA" src="./images/AAA.png" alt="Highest Credit Rating Bisnode" />
                 </div>
             </div>
         </div>
-        <img
-            class="AAA-mobile"
-            src="./images/AAA.png"
-            alt="Highest Credit Rating Bisnode"
-        />
+        <img class="AAA-mobile" src="./images/AAA.png" alt="Highest Credit Rating Bisnode" />
     </footer>
 )
 
