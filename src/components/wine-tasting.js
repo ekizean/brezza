@@ -1,5 +1,6 @@
 import React from 'react'
 import './wine-tasting.css'
+import WineTastingImage from './images/wine-tasting'
 
 const WineTasting = () => (
     <div className="wine-tasting">
@@ -39,7 +40,7 @@ const WineTasting = () => (
             </div>
             <div className="row wine-tasting--main">
                 <div className="col-sm-4">
-                    {/* <img className="galleribild" src="./images/vinprovning.jpeg" alt="vinprovning"> */}
+                    <WineTastingImage />
                 </div>
                 <div>
                     <div className="wine-tasting--description">
