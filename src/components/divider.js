@@ -1,11 +1,11 @@
 import React from 'react'
 import './divider.css'
-import Image from './image'
+import LogoGold from './images/logo-gold'
 
 const Divider = () => (
     <div class="divider">
         <div class="divider__line"></div>
-        <Image />
+        <LogoGold />
         <div class="divider__line"></div>
     </div>
 )

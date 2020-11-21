@@ -13,7 +13,7 @@ import Img from 'gatsby-image'
  * - `useStaticQuery`: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
-const Image = () => {
+const LogoGold = () => {
     const data = useStaticQuery(graphql`
         query {
             placeholderImage: file(relativePath: { eq: "logo_gold.png" }) {
@@ -39,4 +39,4 @@ const Image = () => {
     )
 }
 
-export default Image
+export default LogoGold
