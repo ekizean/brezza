@@ -3,10 +3,10 @@ import './divider.css'
 import LogoGold from './images/logo-gold'
 
 const Divider = () => (
-    <div class="divider">
-        <div class="divider__line"></div>
+    <div className="divider">
+        <div className="divider__line"></div>
         <LogoGold />
-        <div class="divider__line"></div>
+        <div className="divider__line"></div>
     </div>
 )
 
