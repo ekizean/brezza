@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(17, 17, 17);
 }
 
 .divider__line {
@@ -13,6 +12,5 @@
 
 .divider__logo {
     width: 50px;
-    background-color: rgb(17, 17, 17);
     margin: 10px 30px;
 }
