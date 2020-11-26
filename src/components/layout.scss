@@ -1,3 +1,5 @@
+@import 'constants';
+
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -9,7 +11,7 @@ body {
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #c9c8bb;
+    color: $primary-color;
     background-color: rgb(17, 17, 17);
     font-family: Lato, georgia, serif;
     font-weight: normal;
@@ -52,6 +54,9 @@ template {
     display: none;
 }
 a {
+    color: $primary-color;
+    text-decoration: none;
+    text-transform: uppercase;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
 }
@@ -484,6 +489,7 @@ strong {
     font-weight: bold;
 }
 dt {
+    color: rgb(169, 150, 107);
     font-weight: bold;
 }
 th {

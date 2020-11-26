@@ -1,5 +1,5 @@
 import React from 'react'
-import './wine-tasting.css'
+import './wine-tasting.scss'
 import WineTastingImage from './images/wine-tasting'
 
 const WineTasting = () => (
