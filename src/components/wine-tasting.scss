@@ -9,14 +9,10 @@
 }
 
 .wine-tasting--district {
-    border: 1px rgb(169, 150, 107) solid;
+    border: 1px $secondary-color solid;
     padding: 30px;
     min-height: 255px;
     margin: 15px;
-}
-
-.silver {
-    color: $primary-color;
 }
 
 .wine-tasting--main {
@@ -25,4 +21,8 @@
 
 .wine-tasting--description {
     margin: 24px auto;
+}
+
+.wine-tasting--price {
+    color: $secondary-color;
 }
