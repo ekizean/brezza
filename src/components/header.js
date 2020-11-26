@@ -2,23 +2,25 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import scrollTo from 'gatsby-plugin-smoothscroll'
-import './header.css'
+import './header.scss'
 
 const Header = ({ siteTitle }) => (
     <header>
-        <div
-            style={{
-                margin: `0 auto`,
-                maxWidth: 960,
-                padding: `1.45rem 1.0875rem`,
-            }}
-        >
-            <button onClick={() => scrollTo('#menu')}>Meny</button>
-            <button onClick={() => scrollTo('#menu')}>Vinprovningar</button>
-            <button onClick={() => scrollTo('#menu')}>Galleri</button>
-            <button onClick={() => scrollTo('#about')}>Om oss</button>
-            <button onClick={() => scrollTo('#about')}>Kontakt</button>
-        </div>
+        <button className="nav-button" onClick={() => scrollTo('#menu')}>
+            Meny
+        </button>
+        <button className="nav-button" onClick={() => scrollTo('#wine-tasting')}>
+            Vinprovningar
+        </button>
+        <button className="nav-button" onClick={() => scrollTo('#about')}>
+            Galleri
+        </button>
+        <button className="nav-button" onClick={() => scrollTo('#about')}>
+            Om oss
+        </button>
+        <button className="nav-button" onClick={() => scrollTo('footer')}>
+            Kontakt
+        </button>
     </header>
 )
 
