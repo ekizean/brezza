@@ -1,5 +1,5 @@
 import React from 'react'
-import './divider.css'
+import './divider.scss'
 import LogoGold from './images/logo-gold'
 
 const Divider = () => (

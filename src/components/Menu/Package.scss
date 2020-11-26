@@ -1,6 +1,8 @@
+@import '../constants';
+
 .package-menu--box {
     margin-top: 15px;
-    border: 1px rgb(169, 150, 107) solid;
+    border: 1px $secondary-color solid;
     padding: 16px;
 }
 

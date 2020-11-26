@@ -1,5 +1,7 @@
+@import '../constants';
+
 .gold {
-    color: rgb(169, 150, 107);
+    color: $secondary-color;
 }
 
 .col-sm-4 {

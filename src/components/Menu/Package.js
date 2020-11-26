@@ -1,6 +1,6 @@
 import React from 'react'
 import DT from './DT.js'
-import './Package.css'
+import './Package.scss'
 
 const Package = ({ dish }) => {
     const dishName = dish.dishName.split(',')

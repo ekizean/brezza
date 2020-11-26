@@ -3,8 +3,7 @@ import Dishes from './Dishes.js'
 import NavButton from './NavButton.js'
 import XLSX from 'xlsx'
 import menuData from './menu-data.json'
-
-import './menu.css'
+import './menu.scss'
 
 class Menu extends React.Component {
     constructor(props) {

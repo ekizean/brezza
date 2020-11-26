@@ -1,7 +1,7 @@
 @import '../constants';
 
 .dish-type-button {
-    color: rgb(169, 150, 107);
+    color: $secondary-color;
     background-color: rgb(22, 42, 37);
     text-transform: uppercase;
     border-radius: 0.25rem;
