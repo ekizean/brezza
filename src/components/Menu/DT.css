@@ -2,9 +2,14 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 8px;
+    text-transform: uppercase;
 }
 
 .price {
     margin-top: 4px;
     font-size: 0.8rem;
+}
+
+dd {
+    text-transform: lowercase;
 }
