@@ -3,10 +3,17 @@
 header {
     background: $background-color;
     position: fixed;
-    width: 100%;
     display: flex;
     justify-content: center;
-    padding: 10px 0px;
+    align-items: center;
+    width: 100%;
+    padding: 3px 0px;
+    z-index: 100;
+}
+
+.navigator {
+    display: flex;
+    justify-content: center;
 }
 
 .nav-button {

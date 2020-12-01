@@ -2,19 +2,12 @@ import React from 'react'
 import './hero.css'
 import Logo from '../../svg/logo.svg'
 import { Link } from 'gatsby'
+import BookButton from './book-button'
 
 const Hero = () => (
     <div className="hero">
         <Logo />
-        <Link
-            className="book-button"
-            target="_blank"
-            rel="noreferrer"
-            to="https://cloud.caspeco.se/public/webBooking?isWebBooking=true&system=se_breupp&unitId=13"
-        >
-            Boka bord
-        </Link>
-
+        <BookButton />
         <Link
             className="book-button"
             target="_blank"
