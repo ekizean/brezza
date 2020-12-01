@@ -28,7 +28,10 @@ const Header = ({ siteTitle }) => (
                 Kontakt
             </button>
         </div>
-        <BookButton />
+        <BookButton
+            text="Boka&nbsp;bord"
+            link="https://cloud.caspeco.se/public/webBooking?isWebBooking=true&system=se_breupp&unitId=13"
+        />
     </header>
 )
 
