@@ -74,6 +74,13 @@ class Menu extends React.Component {
 
         return (
             <div className="menu" id="menu">
+                <div className="text-center">
+                    <h1>Meny</h1>
+                    <p>
+                        För oss är helhetsupplevelsen viktig. Genuin matlagning och kvalitetsviner i
+                        en gedigen miljö. Titta gärna in i vår vinkällare!
+                    </p>
+                </div>
                 <div className="menu-navigator">
                     {dishTypes.map(dishType => {
                         return (
