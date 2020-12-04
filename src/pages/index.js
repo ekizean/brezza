@@ -7,6 +7,7 @@ import Hero from '../components/hero'
 import Menu from '../components/Menu/menu'
 import Divider from '../components/divider'
 import WineTasting from '../components/wine-tasting'
+import Gallery from '../components/gallery'
 
 const IndexPage = () => (
     <Layout>
@@ -15,6 +16,8 @@ const IndexPage = () => (
         <Menu />
         <Divider />
         <WineTasting />
+        <Divider />
+        <Gallery />
         <Divider />
         <About />
         <Divider />
