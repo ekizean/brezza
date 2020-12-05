@@ -1,47 +1,46 @@
 import React from 'react'
+import './footer.scss'
+import { FaPhone, FaEnvelope, FaMapMarker, FaFacebookSquare, FaInstagram } from 'react-icons/fa'
 
 const Footer = () => (
     <footer>
         <div className="container">
-            <div className="row" id="footermargin">
+            <div className="row">
                 <div className="col-sm-3">
-                    <h3>ÖPPETTIDER</h3>
+                    <h2>ÖPPETTIDER</h2>
                     <div>Måndag - Tisdag</div>
                     <div>16:30 - 22:00</div>
+                    <br />
                     <div>Onsdag - Lördag</div>
                     <div>16:30 - 00:00</div>
+                    <br />
                     <div>Söndag</div>
                     <div>16:30 - 22:00</div>
                 </div>
                 <div className="col-sm-3">
-                    <h3 id="kontakt">KONTAKT</h3>
-                    <p>
-                        <a id="tele" href="tel:018 71 15 40">
-                            <i className="fa fa-phone"></i>
-                            018&nbsp-&nbsp71&nbsp15&nbsp40
-                        </a>
-                        <a href="mailto:kontakt@brezza.se">
-                            <i className="fa fa-envelope-o"></i>
-                            kontakt@brezza.se{' '}
-                        </a>
-                    </p>
+                    <h2 id="kontakt">KONTAKT</h2>
+                    <a id="tele" href="tel:018 71 15 40">
+                        <FaPhone size="16" /> 018&nbsp;-&nbsp;71&nbsp;15&nbsp;40
+                    </a>
+                    <a href="mailto:kontakt@brezza.se">
+                        <FaEnvelope size="17" /> kontakt@brezza.se
+                    </a>
                 </div>
                 <div className="col-sm-3">
-                    <h3 id="hittahit">HITTA HIT</h3>
-                    <p>Skolgatan&nbsp31 753&nbsp11 Uppsala</p>
+                    <h2 id="hittahit">HITTA HIT</h2>
                     <p>
-                        <a
-                            className="fa fa-map-marker"
-                            rel="noreferrer"
-                            href="https://www.google.se/maps/place/Brezza/@59.8607126,17.6289442,15z/data=!4m2!3m1!1s0x0:0xe870a29a3fb802c6?sa=X&ved=2ahUKEwi1tZH5u5TeAhVGqYsKHSvID9QQ_BIwCnoECAoQCw"
-                        ></a>
+                        Skolgatan&nbsp;31
+                        <br />
+                        753&nbsp;11 Uppsala
+                    </p>
+                    <p>
                         <a
                             id="karta"
                             rel="noreferrer"
                             href="https://www.google.se/maps/place/Brezza/@59.8607126,17.6289442,15z/data=!4m2!3m1!1s0x0:0xe870a29a3fb802c6?sa=X&ved=2ahUKEwi1tZH5u5TeAhVGqYsKHSvID9QQ_BIwCnoECAoQCw"
                             target="_blank"
                         >
-                            Karta
+                            <FaMapMarker color="red" size="16" /> Karta
                         </a>
                     </p>
                 </div>
@@ -52,24 +51,21 @@ const Footer = () => (
                             rel="noreferrer"
                             target="_blank"
                             className="fa fa-facebook-square"
-                        ></a>
+                        >
+                            <FaFacebookSquare size="40" />
+                        </a>
                         <a
                             href="https://www.instagram.com/brezza.se"
                             rel="noreferrer"
                             target="_blank"
-                            className="fa fa-instagram"
                             id="insta"
-                        ></a>
+                        >
+                            <FaInstagram size="40" />
+                        </a>
                     </p>
-                    <img
-                        className="AAA"
-                        src="./images/AAA.png"
-                        alt="Highest Credit Rating Bisnode"
-                    />
                 </div>
             </div>
         </div>
-        <img className="AAA-mobile" src="./images/AAA.png" alt="Highest Credit Rating Bisnode" />
     </footer>
 )
 

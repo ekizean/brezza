@@ -2,6 +2,8 @@ import React from 'react'
 import Dish from './Dish.js'
 import Package from './Package.js'
 import './Dishes.css'
+import scrollTo from 'gatsby-plugin-smoothscroll'
+import { FaExternalLinkAlt, FaAngleDoubleDown } from 'react-icons/fa'
 
 const Dishes = ({ dishes }) => {
     const type = dishes && dishes[0] && dishes[0].type
@@ -20,11 +22,11 @@ const Dishes = ({ dishes }) => {
     if (!type) {
         showingContent = (
             <div className="wine-content">
-                <span className="wine-description gold lower-case">
-                    lite längre ner på sidan kan ni se våra vinprovningar
-                </span>
+                <a onClick={() => scrollTo('#wine-tasting')}>
+                    <FaAngleDoubleDown /> Vinprovningar
+                </a>
                 <a className="wine-list" href="./Brezza vinlista.pdf">
-                    Vinlista
+                    <FaExternalLinkAlt /> Vinlista
                 </a>
             </div>
         )
