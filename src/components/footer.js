@@ -19,11 +19,13 @@ const Footer = () => (
                 </div>
                 <div className="col-sm-3">
                     <h2 id="kontakt">KONTAKT</h2>
-                    <a id="tele" href="tel:018 71 15 40">
-                        <FaPhone size="16" /> 018&nbsp;-&nbsp;71&nbsp;15&nbsp;40
+                    <a className="contact" id="tele" href="tel:018 71 15 40">
+                        <FaPhone className="icon" size="16" />
+                        <span>018&nbsp;-&nbsp;71&nbsp;15&nbsp;40</span>
                     </a>
-                    <a href="mailto:kontakt@brezza.se">
-                        <FaEnvelope size="17" /> kontakt@brezza.se
+                    <a className="contact" href="mailto:kontakt@brezza.se">
+                        <FaEnvelope className="icon" size="17" />
+                        <span>kontakt@brezza.se</span>
                     </a>
                 </div>
                 <div className="col-sm-3">
