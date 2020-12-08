@@ -73,7 +73,7 @@ class Menu extends React.Component {
         dishTypes.push('Vin')
 
         return (
-            <div className="menu" id="menu">
+            <div className="section" id="menu">
                 <div className="text-center">
                     <h1>Meny</h1>
                     <p>

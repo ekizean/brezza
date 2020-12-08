@@ -1,7 +1,7 @@
 import React from 'react'
 
 const About = () => (
-    <div id="about">
+    <div className="section" id="about">
         <h1 className="text-center">Om Brezza</h1>
         <div>
             BREZZA betyder bris på italienska och vår tanke är att smakupplevelser ska färdas hit
