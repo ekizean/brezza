@@ -4,7 +4,7 @@ import { FaPhone, FaEnvelope, FaMapMarker, FaFacebookSquare, FaInstagram } from 
 
 const Footer = () => (
     <footer>
-        <div className="container">
+        <div className="section">
             <div className="row">
                 <div className="col-sm-3">
                     <h2>ÖPPETTIDER</h2>
