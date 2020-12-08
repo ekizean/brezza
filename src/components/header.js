@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
             <button className="nav-button" onClick={() => scrollTo('#wine-tasting')}>
                 Vinprovningar
             </button>
-            <button className="nav-button" onClick={() => scrollTo('#about')}>
+            <button className="nav-button" onClick={() => scrollTo('#gallery')}>
                 Galleri
             </button>
             <button className="nav-button" onClick={() => scrollTo('#about')}>
