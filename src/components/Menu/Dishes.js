@@ -4,6 +4,7 @@ import Package from './Package.js'
 import './Dishes.css'
 import scrollTo from 'gatsby-plugin-smoothscroll'
 import { FaExternalLinkAlt, FaAngleDoubleDown } from 'react-icons/fa'
+import wineListPdf from '../../static-resources/Brezza_vinlista.pdf'
 
 const Dishes = ({ dishes }) => {
     const type = dishes && dishes[0] && dishes[0].type
@@ -25,7 +26,7 @@ const Dishes = ({ dishes }) => {
                 <a onClick={() => scrollTo('#wine-tasting')}>
                     <FaAngleDoubleDown /> Vinprovningar
                 </a>
-                <a className="wine-list" href="./Brezza vinlista.pdf">
+                <a className="wine-list" href={wineListPdf}>
                     <FaExternalLinkAlt /> Vinlista
                 </a>
             </div>
