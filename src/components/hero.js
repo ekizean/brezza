@@ -1,7 +1,6 @@
 import React from 'react'
 import './hero.css'
 import Logo from '../../svg/logo.svg'
-import { Link } from 'gatsby'
 import BookButton from './book-button'
 
 const Hero = () => (

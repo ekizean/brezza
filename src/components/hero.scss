@@ -1,6 +1,4 @@
-:root {
-    --logo-color: #c9c8bb;
-}
+@import 'constants';
 
 .hero {
     display: flex;
@@ -15,6 +13,6 @@
 }
 
 .header-logo {
-    fill: var(--logo-color);
-    stroke: var(--logo-color);
+    fill: $primary-color;
+    stroke: $primary-color;
 }
