@@ -8,23 +8,23 @@ import BookButton from './book-button'
 
 const Header = ({ siteTitle }) => (
     <header>
-        <div className="logo-container" onClick={() => scrollTo('.hero')}>
+        <div className="logo-container pointer" onClick={() => scrollTo('.hero')}>
             <LogoGold />
         </div>
         <div className="navigator">
-            <button className="nav-button" onClick={() => scrollTo('#menu')}>
+            <button className="nav-button pointer" onClick={() => scrollTo('#menu')}>
                 Meny
             </button>
-            <button className="nav-button" onClick={() => scrollTo('#wine-tasting')}>
+            <button className="nav-button pointer" onClick={() => scrollTo('#wine-tasting')}>
                 Vinprovningar
             </button>
-            <button className="nav-button" onClick={() => scrollTo('#gallery')}>
+            <button className="nav-button pointer" onClick={() => scrollTo('#gallery')}>
                 Galleri
             </button>
-            <button className="nav-button" onClick={() => scrollTo('#about')}>
+            <button className="nav-button pointer" onClick={() => scrollTo('#about')}>
                 Om&nbsp;oss
             </button>
-            <button className="nav-button" onClick={() => scrollTo('footer')}>
+            <button className="nav-button pointer" onClick={() => scrollTo('footer')}>
                 Kontakt
             </button>
         </div>
