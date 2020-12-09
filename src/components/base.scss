@@ -11,3 +11,11 @@
 .pointer {
     cursor: pointer;
 }
+
+.row {
+    display: flex;
+}
+
+.col-sm-4 {
+    width: calc(100% / 3);
+}
