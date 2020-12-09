@@ -1,5 +1,5 @@
 import React from 'react'
-import './hero.css'
+import './hero.scss'
 import Logo from '../../svg/logo.svg'
 import BookButton from './book-button'
 
