@@ -1,4 +1,6 @@
 import React from 'react'
+import './gallery.scss'
+
 import WineCellarImage from './images/wine-cellar'
 import LargeDiningRoomImage from './images/large-dining-room'
 import SmallDiningRoomImage from './images/small-dining-room'
@@ -7,7 +9,7 @@ import KassaImage from './images/kassa'
 import CharktallrikImage from './images/charktallrik'
 
 const Gallery = () => (
-    <div id="gallery">
+    <div id="gallery" className="gallery">
         <h1 className="text-center">Galleri</h1>
         <div className="row">
             <div className="col-sm-4">
