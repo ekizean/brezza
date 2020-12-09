@@ -47,24 +47,22 @@ const Footer = () => (
                     </p>
                 </div>
                 <div className="col-sm-3 footer-col-last">
-                    <p>
-                        <a
-                            href="https://www.facebook.com/BrezzaUppsala"
-                            rel="noreferrer"
-                            target="_blank"
-                            className="fa fa-facebook-square"
-                        >
-                            <FaFacebookSquare size="40" />
-                        </a>
-                        <a
-                            href="https://www.instagram.com/brezza.se"
-                            rel="noreferrer"
-                            target="_blank"
-                            id="insta"
-                        >
-                            <FaInstagram size="40" />
-                        </a>
-                    </p>
+                    <a
+                        href="https://www.facebook.com/BrezzaUppsala"
+                        rel="noreferrer"
+                        target="_blank"
+                        className="fa fa-facebook-square"
+                    >
+                        <FaFacebookSquare size="40" />
+                    </a>
+                    <a
+                        href="https://www.instagram.com/brezza.se"
+                        rel="noreferrer"
+                        target="_blank"
+                        id="insta"
+                    >
+                        <FaInstagram size="40" />
+                    </a>
                 </div>
             </div>
         </div>
