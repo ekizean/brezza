@@ -21,5 +21,9 @@ header {
     background-color: $background-color;
     border: none;
     color: $primary-color;
-    margin: 0 12px;
+    margin: 0 21px;
+}
+
+.nav-button:focus {
+    outline: none;
 }

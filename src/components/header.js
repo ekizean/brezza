@@ -1,4 +1,3 @@
-import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import scrollTo from 'gatsby-plugin-smoothscroll'
@@ -15,10 +14,10 @@ const Header = ({ siteTitle }) => (
             <button className="nav-button pointer" onClick={() => scrollTo('#menu')}>
                 Meny
             </button>
-            <button className="nav-button pointer" onClick={() => scrollTo('#wine-tasting')}>
+            <button className="nav-button pointer" onClick={() => scrollTo('.wine-tasting')}>
                 Vinprovningar
             </button>
-            <button className="nav-button pointer" onClick={() => scrollTo('#gallery')}>
+            <button className="nav-button pointer" onClick={() => scrollTo('.gallery')}>
                 Galleri
             </button>
             <button className="nav-button pointer" onClick={() => scrollTo('#about')}>

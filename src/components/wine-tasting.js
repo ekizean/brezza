@@ -3,7 +3,7 @@ import './wine-tasting.scss'
 import WineTastingImage from './images/wine-tasting'
 
 const WineTasting = () => (
-    <div className="wine-tasting text-center section" id="wine-tasting">
+    <div className="wine-tasting text-center section">
         <h1>Vinprovningar</h1>
         <div className="row">
             <div className="col-sm-4">

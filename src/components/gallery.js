@@ -9,7 +9,7 @@ import KassaImage from './images/kassa'
 import CharktallrikImage from './images/charktallrik'
 
 const Gallery = () => (
-    <div id="gallery" className="gallery">
+    <div className="gallery">
         <h1 className="text-center">Galleri</h1>
         <div className="row">
             <div className="col-sm-4">
