@@ -23,7 +23,7 @@ const Dishes = ({ dishes }) => {
     if (!type) {
         showingContent = (
             <div className="wine-content">
-                <a className="pointer" onClick={() => scrollTo('#wine-tasting')}>
+                <a className="pointer" onClick={() => scrollTo('.wine-tasting')}>
                     <FaAngleDoubleDown /> Vinprovningar
                 </a>
                 <a className="wine-list" href={wineListPdf}>
