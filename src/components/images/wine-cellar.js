@@ -30,7 +30,13 @@ const WineCellarImage = () => {
         return <div>Picture not found</div>
     }
 
-    return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="Vinkällare" />
+    return (
+        <Img
+            className="gallery-image"
+            fluid={data.placeholderImage.childImageSharp.fluid}
+            alt="Vinkällare"
+        />
+    )
 }
 
 export default WineCellarImage

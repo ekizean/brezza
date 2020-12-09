@@ -30,7 +30,13 @@ const KassaImage = () => {
         return <div>Picture not found</div>
     }
 
-    return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="Kassa" />
+    return (
+        <Img
+            className="gallery-image"
+            fluid={data.placeholderImage.childImageSharp.fluid}
+            alt="Kassa"
+        />
+    )
 }
 
 export default KassaImage

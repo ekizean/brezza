@@ -30,7 +30,13 @@ const SkaldjurImage = () => {
         return <div>Picture not found</div>
     }
 
-    return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="Skaldjur" />
+    return (
+        <Img
+            className="gallery-image"
+            fluid={data.placeholderImage.childImageSharp.fluid}
+            alt="Skaldjur"
+        />
+    )
 }
 
 export default SkaldjurImage

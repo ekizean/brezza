@@ -30,7 +30,13 @@ const CharktallrikImage = () => {
         return <div>Picture not found</div>
     }
 
-    return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="Charktallrik" />
+    return (
+        <Img
+            className="gallery-image"
+            fluid={data.placeholderImage.childImageSharp.fluid}
+            alt="Charktallrik"
+        />
+    )
 }
 
 export default CharktallrikImage

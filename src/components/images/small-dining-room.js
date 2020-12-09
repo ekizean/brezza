@@ -30,7 +30,13 @@ const SmallDiningRoomImage = () => {
         return <div>Picture not found</div>
     }
 
-    return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="Liten matsal" />
+    return (
+        <Img
+            className="gallery-image"
+            fluid={data.placeholderImage.childImageSharp.fluid}
+            alt="Liten matsal"
+        />
+    )
 }
 
 export default SmallDiningRoomImage
