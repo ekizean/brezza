@@ -23,6 +23,7 @@ const Dishes = ({ dishes }) => {
     if (!type) {
         showingContent = (
             <div className="wine-content">
+                <h2>Vin</h2>
                 <a className="pointer" onClick={() => scrollTo('.wine-tasting')}>
                     <FaAngleDoubleDown /> Vinprovningar
                 </a>
@@ -57,12 +58,10 @@ const Dishes = ({ dishes }) => {
 
     return (
         <div className="tab-content">
-            <div className="container">
-                <h2>{type}</h2>
-                {type == 'pasta' && typeDescriptionPasta}
-                {type == 'pizza' && typeDescriptionPizza}
-                <div className="menu-content">{showingContent}</div>
-            </div>
+            <h2>{type}</h2>
+            {type == 'pasta' && typeDescriptionPasta}
+            {type == 'pizza' && typeDescriptionPizza}
+            <div className="menu-content">{showingContent}</div>
         </div>
     )
 }
