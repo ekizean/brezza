@@ -27,7 +27,7 @@ const Dishes = ({ dishes }) => {
                 <a className="pointer" onClick={() => scrollTo('.wine-tasting')}>
                     <FaAngleDoubleDown /> Vinprovningar
                 </a>
-                <a className="wine-list" href={wineListPdf}>
+                <a className="wine-list" href={wineListPdf} target="_blank">
                     <FaExternalLinkAlt /> Vinlista
                 </a>
             </div>
