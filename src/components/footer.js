@@ -60,7 +60,7 @@ const Footer = () => (
                 <a
                     href="https://www.facebook.com/BrezzaUppsala"
                     target="_blank"
-                    className="fa fa-facebook-square"
+                    className="fa-facebook-square"
                 >
                     <FaFacebookSquare size="40" />
                 </a>

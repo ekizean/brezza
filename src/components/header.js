@@ -7,7 +7,7 @@ import BookButton from './book-button'
 
 const Header = ({ siteTitle }) => (
     <header>
-        <div className="logo-container pointer" onClick={() => scrollTo('.hero')}>
+        <div className="pointer" onClick={() => scrollTo('.hero')}>
             <LogoGold />
         </div>
         <div className="navigator">
