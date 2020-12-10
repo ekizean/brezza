@@ -13,14 +13,14 @@ const About = () => (
             italiensk matlagning med moderna influenser.
             <br />
             <br />
-            Här kan du äta allt från
+            {`Här kan du äta allt från `}
             <strong>charkuterier, ostar och vedugnsbakad pizza till á la carte</strong>
             med flera rätter på italienskt vis - eller endast ta ett glas vin från vår vinkällare.
             <br />
             <br />
-            Vi är mycket stolta över vår samling av viner från olika regioner av Italien, såsom
-            Amarone, Barolo, Barbaresco, Brunello, Chianti m.m. Boka gärna en vinprovning i vår
-            vinkällare.
+            {`Vi är mycket stolta över vår samling av viner från olika regioner av Italien, såsom `}
+            <strong>Amarone, Barolo, Barbaresco, Brunello, Chianti</strong> m.m. Boka gärna en
+            vinprovning i vår vinkällare.
         </span>
     </div>
 )
