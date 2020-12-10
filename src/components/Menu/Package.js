@@ -7,7 +7,7 @@ const Package = ({ dish }) => {
     const { packageName, price, description, wineName, winePrice } = dish
 
     return (
-        <div className="col-sm-4 package-menu--box">
+        <div className="col-sm-4 package-menu--box gold-box">
             <dl>
                 <DT name={packageName} price={price} />
                 <dd>

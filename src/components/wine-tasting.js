@@ -1,41 +1,30 @@
 import React from 'react'
 import './wine-tasting.scss'
+import WineTastingDistrict from './wine-tasting-district'
 import WineTastingImage from './images/wine-tasting'
 
 const WineTasting = () => (
     <div className="wine-tasting text-center section">
         <h1>Vinprovningar</h1>
         <div className="row">
-            <div className="col-sm-4">
-                <div className="wine-tasting--district">
-                    <h2>-Valpolicella- </h2>
-                    <div>
-                        Valpolicella ligger i den italienska provinsen Verona i norra Italien och är
+            <WineTastingDistrict
+                name="-Valpolicella-"
+                description="Valpolicella ligger i den italienska provinsen Verona i norra Italien och är
                         mest känt för sina kraftiga röda viner där Amarone, Ripasso och Recioto är
-                        några av de mest kända sorterna.
-                    </div>
-                </div>
-            </div>
-            <div className="col-sm-4">
-                <div className="wine-tasting--district">
-                    <h2>-Piemonte-</h2>
-                    <div>
-                        Piemonte är en region i nordvästra Italien och är känt för Barolo – ”Kungen
-                        av italienska viner” samt ett flertal andra klassiska vinsorter såsom
-                        Barbaresco och Moscato D'Asti{' '}
-                    </div>
-                </div>
-            </div>
-            <div className="col-sm-4">
-                <div className="wine-tasting--district">
-                    <h2>-Toscana-</h2>
-                    <div>
-                        Toscana är en välkänd vinregion för många svenskar. Chianti, Brunello di
-                        Montalcino och Vin Santo är några av Italiens mest respekterade vinsorter
-                        och alla görs i Toscana.
-                    </div>
-                </div>
-            </div>
+                        några av de mest kända sorterna."
+            />
+            <WineTastingDistrict
+                name="-Piemonte-"
+                description="Piemonte är en region i nordvästra Italien och är känt för Barolo – ”Kungen
+                av italienska viner” samt ett flertal andra klassiska vinsorter såsom
+                Barbaresco och Moscato D'Asti."
+            />
+            <WineTastingDistrict
+                name="-Toscana-"
+                description="Toscana är en välkänd vinregion för många svenskar. Chianti, Brunello di
+                Montalcino och Vin Santo är några av Italiens mest respekterade vinsorter
+                och alla görs i Toscana."
+            />
         </div>
         <div className="row wine-tasting--main">
             <div className="col-sm-4">

@@ -1,11 +1,5 @@
 @import '../constants';
 
-.package-menu--box {
-    margin-top: 15px;
-    border: 1px $secondary-color solid;
-    padding: 16px;
-}
-
 .package-menu--box:not(:last-child) {
     margin-right: 30px;
 }
