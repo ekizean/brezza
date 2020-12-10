@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => (
     <div className="section" id="about">
         <h1 className="text-center">Om Brezza</h1>
-        <div>
+        <span>
             BREZZA betyder bris på italienska och vår tanke är att smakupplevelser ska färdas hit
             från Italien. BREZZA är också en nödvändig faktor i vinodling för vindruvornas
             välbefinnande.
@@ -21,7 +21,7 @@ const About = () => (
             Vi är mycket stolta över vår samling av viner från olika regioner av Italien, såsom
             Amarone, Barolo, Barbaresco, Brunello, Chianti m.m. Boka gärna en vinprovning i vår
             vinkällare.
-        </div>
+        </span>
     </div>
 )
 
