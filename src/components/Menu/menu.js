@@ -15,7 +15,7 @@ class Menu extends React.Component {
         }
     }
 
-    componentWillMount() {
+    componentDidMount() {
         this.setState({ menuData }, () => {
             this.setCurrentDishes()
         })
