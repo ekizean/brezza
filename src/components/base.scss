@@ -26,3 +26,15 @@
     border: 1px $secondary-color solid;
     padding: 30px;
 }
+
+@media screen and (max-width: $desktop-width) {
+    .desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: $desktop-width) {
+    .mobile {
+        display: none;
+    }
+}

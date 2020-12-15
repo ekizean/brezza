@@ -5,10 +5,21 @@ header {
     position: fixed;
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100%;
     padding: 3px 0px;
     z-index: 100;
+
+    @media screen and (max-width: $desktop-width) {
+        .divider__logo {
+            margin: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: $desktop-width) {
+    header {
+        justify-content: space-around;
+    }
 }
 
 .navigator {
@@ -26,4 +37,8 @@ header {
 
 .nav-button:focus {
     outline: none;
+}
+
+.burger-wrapper {
+    width: 53px;
 }
