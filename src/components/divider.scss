@@ -17,3 +17,13 @@
     width: 50px;
     margin: 10px 30px;
 }
+
+@media screen and (max-width: $desktop-width) {
+    .divider__line {
+        width: 25%;
+    }
+
+    .divider__logo {
+        margin: 10px 18px;
+    }
+}
