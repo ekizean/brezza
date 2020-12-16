@@ -23,3 +23,9 @@
     color: $primary-color;
     background-color: #580000;
 }
+
+@media only screen and (max-width: $desktop-width) {
+    .dish-type-button {
+        padding: 5px 14px;
+    }
+}
