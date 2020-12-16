@@ -4,7 +4,7 @@ import scrollTo from 'gatsby-plugin-smoothscroll'
 const NavButtons = ({ close }) => {
     const handleClick = element => {
         scrollTo(element)
-        close()
+        close && close()
     }
 
     return (
