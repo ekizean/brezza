@@ -22,6 +22,10 @@
     width: calc(100% / 3);
 }
 
+.col-sm-3 {
+    width: 25%;
+}
+
 .gold-box {
     border: 1px $secondary-color solid;
     padding: 30px;
@@ -30,6 +34,22 @@
 @media screen and (max-width: $desktop-width) {
     .desktop {
         display: none;
+    }
+
+    .section {
+        padding: 50px 25px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col-sm-4 {
+        width: 100%;
+    }
+
+    .col-sm-3 {
+        width: 100%;
     }
 }
 
