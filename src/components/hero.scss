@@ -20,3 +20,9 @@
 .logo {
     max-width: 73%;
 }
+
+@media only screen and (max-width: $desktop-width) {
+    .hero {
+        background-position: 50% 41%;
+    }
+}
