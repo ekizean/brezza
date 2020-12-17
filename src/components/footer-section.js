@@ -1,10 +1,10 @@
 import React from 'react'
 import './footer-section.scss'
 
-const FooterSection = ({ header, content }) => (
+const FooterSection = ({ header, children }) => (
     <div className="col-sm-3 footer-section">
-        <h2>{header}</h2>
-        {content}
+        {header && <h2>{header}</h2>}
+        {children}
     </div>
 )
 
