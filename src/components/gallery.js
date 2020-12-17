@@ -12,24 +12,24 @@ const Gallery = () => (
     <div className="gallery">
         <h1 className="text-center">Galleri</h1>
         <div className="row">
-            <div className="col-sm-4">
+            <div className="col-sm-4 image-container">
                 <WineCellarImage />
             </div>
-            <div className="col-sm-4">
+            <div className="col-sm-4 image-container">
                 <LargeDiningRoomImage />
             </div>
-            <div className="col-sm-4">
+            <div className="col-sm-4 image-container">
                 <SkaldjurImage />
             </div>
         </div>
         <div className="row">
-            <div className="col-sm-4">
+            <div className="col-sm-4 image-container">
                 <KassaImage />
             </div>
-            <div className="col-sm-4">
+            <div className="col-sm-4 image-container">
                 <CharktallrikImage />
             </div>
-            <div className="col-sm-4">
+            <div className="col-sm-4 image-container">
                 <SmallDiningRoomImage />
             </div>
         </div>

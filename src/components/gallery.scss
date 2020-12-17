@@ -1,7 +1,20 @@
+@import 'constants';
+
 .gallery {
     padding: 100px 0;
 }
 
 .gallery-image {
-    margin: 3px;
+    height: 100%;
+    width: 100%;
+}
+
+.image-container {
+    margin: 4px;
+}
+
+@media screen and (max-width: $desktop-width) {
+    .image-container {
+        margin: 2px 4px;
+    }
 }
