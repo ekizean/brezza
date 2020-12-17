@@ -1,0 +1,19 @@
+@import 'constants';
+
+.nav-button {
+    text-transform: uppercase;
+    background-color: $background-color;
+    border: none;
+    color: $primary-color;
+    margin: 0 21px;
+}
+
+.nav-button:focus {
+    outline: none;
+}
+
+@media screen and (max-width: $desktop-width) {
+    .nav-button {
+        margin-bottom: 18px;
+    }
+}

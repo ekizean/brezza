@@ -1,5 +1,6 @@
 import React from 'react'
 import scrollTo from 'gatsby-plugin-smoothscroll'
+import './nav-buttons.scss'
 
 const NavButtons = ({ close }) => {
     const handleClick = element => {

@@ -27,18 +27,6 @@ header {
     justify-content: center;
 }
 
-.nav-button {
-    text-transform: uppercase;
-    background-color: $background-color;
-    border: none;
-    color: $primary-color;
-    margin: 0 21px;
-}
-
-.nav-button:focus {
-    outline: none;
-}
-
 .burger-wrapper {
     width: 53px;
 }
