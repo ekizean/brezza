@@ -9,9 +9,9 @@ import Burger from './burger'
 
 const Header = ({ siteTitle }) => (
     <header>
-        <div className="pointer" onClick={() => scrollTo('.hero')}>
+        <button className="transparent-button" onClick={() => scrollTo('.hero')}>
             <LogoGold />
-        </div>
+        </button>
         <div className="navigator desktop">
             <NavButtons />
         </div>

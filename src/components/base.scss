@@ -32,6 +32,13 @@ button,
     cursor: pointer;
 }
 
+.transparent-button {
+    color: $primary-color;
+    background-color: transparent;
+    border: 0;
+    width: fit-content;
+}
+
 @media screen and (max-width: $desktop-width) {
     .desktop {
         display: none;

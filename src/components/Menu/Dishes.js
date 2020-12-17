@@ -24,10 +24,10 @@ const Dishes = ({ dishes }) => {
         showingContent = (
             <div className="wine-content">
                 <h2>Vin</h2>
-                <button className="pointer wine-button" onClick={() => scrollTo('.wine-tasting')}>
+                <button className="transparent-button" onClick={() => scrollTo('.wine-tasting')}>
                     <FaAngleDoubleDown /> Vinprovningar
                 </button>
-                <button className="wine-list wine-button" href={wineListPdf} target="_blank">
+                <button className="wine-list transparent-button" href={wineListPdf} target="_blank">
                     <FaExternalLinkAlt /> Vinlista
                 </button>
             </div>
