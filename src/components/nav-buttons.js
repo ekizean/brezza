@@ -9,19 +9,19 @@ const NavButtons = ({ close }) => {
 
     return (
         <>
-            <button className="nav-button pointer" onClick={() => handleClick('#menu')}>
+            <button className="nav-button" onClick={() => handleClick('#menu')}>
                 Meny
             </button>
-            <button className="nav-button pointer" onClick={() => handleClick('.wine-tasting')}>
+            <button className="nav-button" onClick={() => handleClick('.wine-tasting')}>
                 Vinprovningar
             </button>
-            <button className="nav-button pointer" onClick={() => handleClick('.gallery')}>
+            <button className="nav-button" onClick={() => handleClick('.gallery')}>
                 Galleri
             </button>
-            <button className="nav-button pointer" onClick={() => handleClick('#about')}>
+            <button className="nav-button" onClick={() => handleClick('#about')}>
                 Om&nbsp;oss
             </button>
-            <button className="nav-button pointer" onClick={() => handleClick('footer')}>
+            <button className="nav-button" onClick={() => handleClick('footer')}>
                 Kontakt
             </button>
         </>

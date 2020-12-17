@@ -10,10 +10,6 @@
     max-width: 1600px;
 }
 
-.pointer {
-    cursor: pointer;
-}
-
 .row {
     display: flex;
 }
@@ -29,6 +25,11 @@
 .gold-box {
     border: 1px $secondary-color solid;
     padding: 30px;
+}
+
+button,
+.pointer {
+    cursor: pointer;
 }
 
 @media screen and (max-width: $desktop-width) {

@@ -1,7 +1,7 @@
 import React from 'react'
 import Dish from './Dish.js'
 import Package from './Package.js'
-import './Dishes.css'
+import './Dishes.scss'
 import scrollTo from 'gatsby-plugin-smoothscroll'
 import { FaExternalLinkAlt, FaAngleDoubleDown } from 'react-icons/fa'
 import wineListPdf from '../../static-resources/Brezza_vinlista.pdf'
@@ -24,12 +24,12 @@ const Dishes = ({ dishes }) => {
         showingContent = (
             <div className="wine-content">
                 <h2>Vin</h2>
-                <a className="pointer" onClick={() => scrollTo('.wine-tasting')}>
+                <button className="pointer wine-button" onClick={() => scrollTo('.wine-tasting')}>
                     <FaAngleDoubleDown /> Vinprovningar
-                </a>
-                <a className="wine-list" href={wineListPdf} target="_blank">
+                </button>
+                <button className="wine-list wine-button" href={wineListPdf} target="_blank">
                     <FaExternalLinkAlt /> Vinlista
-                </a>
+                </button>
             </div>
         )
     } else {

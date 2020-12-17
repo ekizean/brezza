@@ -1,3 +1,5 @@
+@import '../constants';
+
 .tab-content {
     margin-top: 50px;
 }
@@ -18,4 +20,11 @@
 
 .wine-list {
     margin-top: 27px;
+}
+
+.wine-button {
+    color: $primary-color;
+    background-color: $background-color;
+    border: 0;
+    width: fit-content;
 }
