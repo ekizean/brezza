@@ -27,9 +27,9 @@ const Dishes = ({ dishes }) => {
                 <button className="transparent-button" onClick={() => scrollTo('.wine-tasting')}>
                     <FaAngleDoubleDown /> Vinprovningar
                 </button>
-                <button className="wine-list transparent-button" href={wineListPdf} target="_blank">
+                <a className="wine-list transparent-button" href={wineListPdf}>
                     <FaExternalLinkAlt /> Vinlista
-                </button>
+                </a>
             </div>
         )
     } else {
