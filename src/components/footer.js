@@ -49,6 +49,7 @@ const Footer = () => (
                             <a
                                 href="https://www.google.se/maps/place/Brezza/@59.8607126,17.6289442,15z/data=!4m2!3m1!1s0x0:0xe870a29a3fb802c6?sa=X&ved=2ahUKEwi1tZH5u5TeAhVGqYsKHSvID9QQ_BIwCnoECAoQCw"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <FaMapMarker color="red" size="16" /> Karta
                             </a>
@@ -58,13 +59,14 @@ const Footer = () => (
             />
             <div className="col-sm-3 footer-col-last">
                 <a
+                    className="fa-facebook-square"
                     href="https://www.facebook.com/BrezzaUppsala"
                     target="_blank"
-                    className="fa-facebook-square"
+                    rel="noreferrer"
                 >
                     <FaFacebookSquare size="40" />
                 </a>
-                <a href="https://www.instagram.com/brezza.se" target="_blank">
+                <a href="https://www.instagram.com/brezza.se" target="_blank" rel="noreferrer">
                     <FaInstagram size="40" />
                 </a>
             </div>
