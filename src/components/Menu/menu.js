@@ -48,7 +48,7 @@ class Menu extends React.Component {
 
     setCurrentDishes = () => {
         const dishes = this.state.menuData.filter(dish => {
-            return dish.type.toLowerCase() == this.state.type.toLowerCase()
+            return dish.type.toLowerCase() === this.state.type.toLowerCase()
         })
 
         this.setState({ dishes })

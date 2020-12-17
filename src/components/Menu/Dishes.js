@@ -59,8 +59,8 @@ const Dishes = ({ dishes }) => {
     return (
         <div className="tab-content">
             <h2>{type}</h2>
-            {type == 'pasta' && typeDescriptionPasta}
-            {type == 'pizza' && typeDescriptionPizza}
+            {type === 'pasta' && typeDescriptionPasta}
+            {type === 'pizza' && typeDescriptionPizza}
             <div className="menu-content">{showingContent}</div>
         </div>
     )
