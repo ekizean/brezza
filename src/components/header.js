@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => (
             text="Boka&nbsp;bord"
             link="https://cloud.caspeco.se/public/webBooking?isWebBooking=true&system=se_breupp&unitId=13"
         />
-        <div className="mobile burger-wrapper">
+        <div className="burger-wrapper mobile">
             <Burger />
         </div>
     </header>
