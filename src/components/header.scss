@@ -8,6 +8,7 @@ header {
     width: 100%;
     padding: 3px 0px;
     z-index: 100;
+    align-items: center;
 
     @media screen and (max-width: $desktop-width) {
         .divider__logo {
