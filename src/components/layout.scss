@@ -22,6 +22,9 @@ body {
     -ms-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
     -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
     font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+    /* Disable horizontal scroll on mobile */
+    max-width: 100%;
+    overflow-x: hidden;
 }
 article,
 aside,
