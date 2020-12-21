@@ -1,0 +1,13 @@
+@import 'constants';
+
+.banner {
+    text-transform: uppercase;
+    width: 100%;
+    color: $background-color;
+    padding: 8px;
+    background-color: #c9c8bb;
+    position: fixed;
+    z-index: 30;
+    bottom: 0;
+    text-align: center;
+}
