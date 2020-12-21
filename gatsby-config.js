@@ -2,6 +2,7 @@ module.exports = {
     siteMetadata: {
         title: `Italiensk restaurang i Uppsala`,
         description: `Brezza är en italiensk restaurang och vinotek i centrala Uppsala med fokus på klassisk italiensk matlagning med moderna influenser.`,
+        author: `@gatsbyjs`,
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
