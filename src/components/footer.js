@@ -8,14 +8,17 @@ const Footer = () => (
         <div className="section row">
             <FooterSection header="ÖPPETTIDER">
                 <>
-                    <div className="weekdays">Måndag - Tisdag</div>
-                    <div>16:30 - 22:00</div>
+                    <div className="weekdays">Måndag</div>
+                    <div>Från 16:30</div>
                     <br />
-                    <div className="weekdays">Onsdag - Lördag</div>
-                    <div>16:30 - 00:00</div>
+                    <div className="weekdays">Tisdag</div>
+                    <div>Stängt</div>
                     <br />
-                    <div className="weekdays">Söndag</div>
-                    <div>16:30 - 22:00</div>
+                    <div className="weekdays">Onsdag - Fredag</div>
+                    <div>Från 16:30</div>
+                    <br />
+                    <div className="weekdays">Lördag - Söndag</div>
+                    <div>Från 14:00</div>
                 </>
             </FooterSection>
             <FooterSection header="KONTAKT">
