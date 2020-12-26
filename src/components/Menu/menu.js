@@ -1,7 +1,6 @@
 import React from 'react'
 import Dishes from './Dishes.js'
 import NavButton from './NavButton.js'
-import XLSX from 'xlsx'
 import menuData from './menu-data.json'
 import './menu.scss'
 
@@ -19,31 +18,6 @@ class Menu extends React.Component {
         this.setState({ menuData }, () => {
             this.setCurrentDishes()
         })
-        // this.getMenuData()
-    }
-
-    getMenuData() {
-        const url = './Meny hemsida.xlsx'
-
-        /* set up async GET request */
-        const req = new XMLHttpRequest()
-        req.open('GET', url, true)
-        req.responseType = 'arraybuffer'
-
-        req.onload = e => {
-            const data = new Uint8Array(req.response)
-            const workbook = XLSX.read(data, { type: 'array' })
-
-            /* DO SOMETHING WITH workbook HERE */
-            const first_sheet = workbook.SheetNames[0]
-            const worksheet = workbook.Sheets[first_sheet]
-            const menuJson = XLSX.utils.sheet_to_json(worksheet)
-
-            this.setState({ menuData: menuJson }, () => {
-                this.setCurrentDishes()
-            })
-        }
-        req.send()
     }
 
     setCurrentDishes = () => {
