@@ -8,11 +8,8 @@ const Footer = () => (
         <div className="section row">
             <FooterSection header="ÖPPETTIDER">
                 <>
-                    <div className="weekdays">Måndag - Fredag</div>
-                    <div>Från 16:30</div>
-                    <br />
-                    <div className="weekdays">Lördag - Söndag</div>
-                    <div>Från 14:00</div>
+                    <div className="weekdays">Måndag - Söndag</div>
+                    <div>Från 16:00</div>
                 </>
             </FooterSection>
             <FooterSection header="KONTAKT">
