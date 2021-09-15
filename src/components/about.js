@@ -4,25 +4,21 @@ const About = () => (
     <div className="section" id="about">
         <h1 className="text-center">Om Brezza</h1>
         <span>
-            BREZZA betyder bris på italienska och vår tanke är att smakupplevelser ska färdas hit
-            från Italien. BREZZA är också en nödvändig faktor i vinodling för vindruvornas
-            välbefinnande.
+            BREZZA betyder bris på italienska.
             <br />
             <br />
-            Vi är en italiensk restaurang och vinotek i centrala Uppsala med fokus på klassisk
-            italiensk matlagning med moderna influenser.
+            BREZZA är en italiensk restaurang och vinotek med kvalitetsviner från hela världen med fokus på italienska toppviner såsom <strong>Brunello, Chianti, Barolo, Barbaresco, Amarone, Sassicaia</strong> m.m. BREZZA har en egen vinkällare där vinprovningar anordnas.
             <br />
             <br />
-            Här kan du äta allt från{` `}
-            <strong>charkuterier, ostar och vedugnsbakad pizza till á la carte</strong>
-            {` `}
-            med flera rätter på italienskt vis - eller endast ta ett glas vin från vår vinkällare.
+            På BREZZA serverar vi klassisk italiensk <strong>antipasti, secondi, dolci, handgjord pasta och vedugnsbakade pizzor</strong>.
             <br />
             <br />
-            Vi är mycket stolta över vår samling av viner från olika regioner av Italien, såsom{` `}
-            <strong>Amarone, Barolo, Barbaresco, Brunello, Chianti</strong>
-            {` `}m.m. Boka gärna en vinprovning i vår vinkällare.
+            BREZZAs anrika och ståtliga lokaler har flera olika rum och en vinkällare. Restaurangen lämpar sig väl som festsal för både små och stora evenemang och högtider såsom bröllop, familjemiddagar, företagsevent, personalfester m.m.
+            <br />
+            <br />
+            Välkomna till BREZZA!
         </span>
+        
     </div>
 )
 
