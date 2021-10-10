@@ -5,7 +5,7 @@ import WineCellarImage from './images/wine-cellar'
 import FrontImage from './images/front'
 import SmallDiningRoomImage from './images/small-dining-room'
 import SkaldjurImage from './images/skaldjur'
-import KassaImage from './images/kassa'
+import LargeDiningRoomBarImage from './images/large-dining-room-bar'
 import CharktallrikImage from './images/charktallrik'
 
 const Gallery = () => (
@@ -24,7 +24,7 @@ const Gallery = () => (
         </div>
         <div className="row">
             <div className="col-sm-4 image-container">
-                <KassaImage />
+                <LargeDiningRoomBarImage />
             </div>
             <div className="col-sm-4 image-container">
                 <CharktallrikImage />
