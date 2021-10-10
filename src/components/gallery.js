@@ -2,7 +2,7 @@ import React from 'react'
 import './gallery.scss'
 
 import WineCellarImage from './images/wine-cellar'
-import LargeDiningRoomImage from './images/large-dining-room'
+import FrontImage from './images/front'
 import SmallDiningRoomImage from './images/small-dining-room'
 import SkaldjurImage from './images/skaldjur'
 import KassaImage from './images/kassa'
@@ -16,7 +16,7 @@ const Gallery = () => (
                 <WineCellarImage />
             </div>
             <div className="col-sm-4 image-container">
-                <LargeDiningRoomImage />
+                <FrontImage />
             </div>
             <div className="col-sm-4 image-container">
                 <SkaldjurImage />
