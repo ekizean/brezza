@@ -4,7 +4,7 @@ import WineTastingDistrict from './wine-tasting-district'
 import WineTastingImage from './images/wine-tasting'
 
 const WineTasting = () => (
-    <div className="wine-tasting text-center section">
+    <div className="wine-tasting text-center section" id="wine-tasting">
         <h1>Vinprovningar</h1>
         <div className="row">
             <WineTastingDistrict

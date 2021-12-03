@@ -4,8 +4,8 @@ import './banner.scss'
 
 const Banner = () => {
     return (
-        <button className="banner" onClick={() => scrollTo('#menu')}>
-            <span>Just nu 20% på all mat och dryck t.o.m. 15/1 (ej nyårsafton)</span>
+        <button className="banner" onClick={() => scrollTo('#wine-tasting')}>
+            <span>JULKLAPPSTIPS! Presentkort på valfri vinprovning. Välkommen in!</span>
         </button>
     )
 }
