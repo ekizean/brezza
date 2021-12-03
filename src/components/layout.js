@@ -12,6 +12,7 @@ import Header from './header'
 import Footer from './footer'
 import './layout.scss'
 import './base.scss'
+import Banner from './banner'
 
 const Layout = ({ children }) => {
     return (
@@ -25,6 +26,7 @@ const Layout = ({ children }) => {
                 <main>{children}</main>
             </div>
             <Footer />
+            <Banner />
         </>
     )
 }
