@@ -1,11 +1,11 @@
 @import '../constants';
 
 .dish-type-button {
-    color: $secondary-color;
-    background-color: rgb(22, 42, 37);
+    color: $primary-color;
+    background-color: transparent;
     text-transform: uppercase;
     border-radius: 0.25rem;
-    border: none;
+    border: 1px solid $primary-color;
     padding: 8px 20px;
     font-size: 0.8rem;
     margin: 0 1px 2px 1px;
@@ -16,8 +16,8 @@
 }
 
 .selected {
-    color: $primary-color;
-    background-color: #580000;
+    color: $secondary-color;
+    border: 1px solid $secondary-color;
 }
 
 @media only screen and (max-width: $desktop-width) {
