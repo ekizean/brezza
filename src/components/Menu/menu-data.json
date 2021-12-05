@@ -31,12 +31,6 @@
     },
     {
         "type": "Antipasti",
-        "price": "175:-",
-        "dishName": "Risotto all Amarone",
-        "description": "Amaronerisotto med riven parmesan, rostade hasselnötter och örtvinigrette"
-    },
-    {
-        "type": "Antipasti",
         "price": "155:-",
         "dishName": "Bruschetta di pomodore é Stracciatella",
         "description": "Vitlöksfräst bröd med tomat, stracciatella och basilika"
@@ -56,23 +50,23 @@
     {
         "type": "Pasta",
         "price": "225:-",
-        "dishName": "Pappardelle alla Norma",
+        "dishName": "Rigatoni alla Norma",
         "description": "Soffrittotomatsås med stracciatella och aubergine"
     },
     {
         "type": "Pasta",
-        "price": "185:-",
+        "price": "235:-",
         "dishName": "Tagliatelle all crema di Tartufo",
         "description": "Tagliatelle med tryffelkräm, hyvlad parmesan och krutonger"
     },
     {
         "type": "Pasta",
-        "price": "235:-",
+        "price": "245:-",
         "dishName": "Pappardelle con ragu di Vitello",
         "description": "Pappardelle med långkok på kalv i tomatsås"
     },
     {
-         "type": "Pizza",
+        "type": "Pizza",
         "price": "135:-",
         "dishName": "Margherita",
         "description": "Tomatsås, mozzarella & basilika"
@@ -156,14 +150,8 @@
         "description": "Tomatsås, mozzarella, lök & salamino"
     },
     {
-        "type": "Pizza",
-        "price": "175:-",
-        "dishName": "Mortadella con Straccitella",
-        "description": "Mozzarella, Mortadella, Stracciatella & pistage"
-    },
-    {
         "type": "Secondi",
-        "price": "345:-",
+        "price": "355:-",
         "dishName": "Filetto di Manzo",
         "description": "Oxfilé med rödvinssky, tryffelsmör, krispig lök, ugnbakad körsbärstomat och tryffelpotatis"
     },
@@ -181,7 +169,7 @@
     },
     {
         "type": "Secondi",
-        "price": "325:-",
+        "price": "335:-",
         "dishName": "Cervo",
         "description": "Hjortytterfilé med skogssvamp, ugnsrostad potatis och rödvinsås med biggaråer"
     },
@@ -193,25 +181,23 @@
     {
         "type": "Dolci",
         "price": "110:-",
-        "dishName": "Torta di formaggio",
+        "dishName": "Torta di cheesecake",
         "description": "Marinerade biggaråer och recioto glaze"
     },
     {
         "type": "Dolci",
         "price": "125:-",
-        "dishName": "Torte di cioccolato ",
+        "dishName": "Torta di cioccolato ",
         "description": "Chokladtart med marinerade vindruvor, chokladmousse och biggarå glaze"
     },
     {
-       "type": "Dolci",
+        "type": "Dolci",
         "price": "120:-",
         "dishName": "Pannacotta di safrano",
         "description": "Saffranspannacotta med pistagekaramell & apelsincolli"
     },
     {
-
-
- "type": "Dolci",
+        "type": "Dolci",
         "price": "125:-",
         "dishName": "Piatto Misto di Formaggi",
         "description": "Blandade ostar, serveras med marmelad och frökex"
@@ -249,7 +235,7 @@
     {
         "type": "Avsmakning",
         "price": "865:-",
-        "dishName": "Carpaccio Filetto di Manzo,\r\nRisotto di Amarone, \r\nCervo,\r\nTonno grigliato, \r\nPiatto Misto di Formaggi ,\r\nSorbetto, \r\nPannacotta di safrano",
+        "dishName": "Capesante é Coppa di Parma,\r\n Carpaccio Filetto di Manzo, \r\nCervo,\r\nTonno grigliato, \r\nPiatto Misto di Formaggi ,\r\nSorbetto, \r\nPannacotta di safrano",
         "description": "minst två personer",
         "packageName": "Sju rätter",
         "wineName": "Vinpaket",
@@ -257,11 +243,10 @@
     },
     {
         "type": "Avsmakning",
-        "price": "635:-",
-        "dishName": "Capesante con Coppa di Parma, \r\nCervo eller Branzino, \r\n Torte di formaggi ",
+        "price": "625:-",
+        "dishName": "Piatto misto di salumi, \r\nCervo eller Branzino, \r\n Torta di cheesecake ",
         "packageName": "Tre rätter",
         "wineName": "Vinpaket",
         "winePrice": "425:-"
     }
 ]
-
