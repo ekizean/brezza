@@ -6,8 +6,7 @@ const Banner = () => {
     return (
         <button className="banner" onClick={() => scrollTo('#wine-tasting')}>
             <span>
-                JULKLAPPSTIPS! Presentkort på valfri{' '}
-                <span className="wine-tasting-link">vinprovning</span>. Välkommen in!
+                Presenttips! <span className="wine-tasting-link">Vinprovningar</span>
             </span>
         </button>
     )
