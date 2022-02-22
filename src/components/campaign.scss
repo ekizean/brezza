@@ -9,7 +9,7 @@
     background-position: center;
     height: 75vh;
     position: relative;
-    margin-top: 48px;
+    margin-top: 85px;
 }
 
 .campaign__content {
@@ -32,18 +32,23 @@
     border: 0;
 }
 
-@media screen and (max-width: $desktop-width) {
-    .campaign__content {
-        top: 50%;
-    }
-}
-
 @media screen and (max-width: $mobile-width) {
     .campaign-wrapper {
-        padding: 0 20px;
+        padding: 0 25px;
+    }
+
+    .campaign__content {
+        top: 45%;
+        padding: 0 10px;
     }
 
     .campaign {
         height: 500px;
+    }
+}
+
+@media screen and (max-width: '450px') {
+    .campaign {
+        height: 350px;
     }
 }
