@@ -1,0 +1,49 @@
+@import 'constants';
+
+.campaign {
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/wine-cellar.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 75vh;
+    position: relative;
+    margin-top: 48px;
+}
+
+.campaign__content {
+    color: white;
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    text-shadow: 1.2px 1.2px black;
+}
+
+.scroll-button {
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    background: #580000;
+    color: #f4f0d9;
+    padding: 10px 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+}
+
+@media screen and (max-width: $desktop-width) {
+    .campaign__content {
+        top: 50%;
+    }
+}
+
+@media screen and (max-width: $mobile-width) {
+    .campaign-wrapper {
+        padding: 0 20px;
+    }
+
+    .campaign {
+        height: 500px;
+    }
+}
