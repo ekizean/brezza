@@ -33,7 +33,7 @@ const WineTasting = () => (
             <div>
                 <div className="wine-tasting--description">
                     <div>Vinprovning med fyra rätters middag med sex olika viner från området</div>
-                    <div className="wine-tasting--price">1295 kr/person</div>
+                    <div className="wine-tasting--price">1495 kr/person</div>
                 </div>
 
                 <div className="wine-tasting--description">
