@@ -1,13 +1,13 @@
 import React from 'react'
-import scrollTo from 'gatsby-plugin-smoothscroll'
 import './banner.scss'
+import amaronePdf from '../static-resources/Amarone_Vinprovning.pdf'
 
 const Banner = () => {
     return (
-        <button className="banner" onClick={() => scrollTo('#wine-tasting')}>
-            <span>
-                Presentförslag! <span className="wine-tasting-link">Vinprovningar</span>
-            </span>
+        <button className="banner">
+            <a className="wine-tasting-link" href={amaronePdf}>
+                Vinprovning 29 september
+            </a>
         </button>
     )
 }
