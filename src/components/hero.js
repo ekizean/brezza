@@ -11,7 +11,7 @@ const Hero = () => (
             link="https://cloud.caspeco.se/public/webBooking?isWebBooking=true&system=se_breupp&unitId=13"
         />
         <BookButton
-            text="Avhämtning 20%"
+            text="Avhämtning 10%"
             link="https://cloud.caspeco.se/public/webBooking?system=se_breupp&unitId=14&onlineorder=true"
         />
     </div>
