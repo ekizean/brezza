@@ -1,12 +1,12 @@
 import React from 'react'
 import './banner.scss'
-import amaronePdf from '../static-resources/Amarone_Vinprovning.pdf'
+import image from '../static-resources/Vinprovning_25_oktober_2022.jpg'
 
 const Banner = () => {
     return (
         <button className="banner">
-            <a className="wine-tasting-link" href={amaronePdf}>
-                Vinprovning 29 september
+            <a className="wine-tasting-link" href={image} target="_blank">
+                Vinprovning 25 oktober kl 18:30
             </a>
         </button>
     )
