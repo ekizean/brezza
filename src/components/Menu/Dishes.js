@@ -5,10 +5,9 @@ import './Dishes.scss'
 import scrollTo from 'gatsby-plugin-smoothscroll'
 import { FaExternalLinkAlt, FaAngleDoubleDown } from 'react-icons/fa'
 import wineListPdf from '../../static-resources/Brezza_vinlista.pdf'
+import largePartiesPdf from '../../static-resources/Stora_sallskap.pdf'
 
-const Dishes = ({ dishes }) => {
-    const type = dishes && dishes[0] && dishes[0].type
-
+const Dishes = ({ type, dishes }) => {
     function getDishMarkup(dish) {
         if (dish.packageName) {
             return <Package dish={dish} key={dish.packageName} />
@@ -20,10 +19,9 @@ const Dishes = ({ dishes }) => {
     const groupSize = 3
     let showingContent
 
-    if (!type) {
+    if (type === 'Vin') {
         showingContent = (
             <div className="wine-content">
-                <h2>Vin</h2>
                 <button className="transparent-button" onClick={() => scrollTo('.wine-tasting')}>
                     <FaAngleDoubleDown /> Vinprovningar
                 </button>
@@ -31,6 +29,12 @@ const Dishes = ({ dishes }) => {
                     <FaExternalLinkAlt /> Vinlista
                 </a>
             </div>
+        )
+    } else if (type === 'Stora sällskap') {
+        showingContent = (
+            <a className="wine-list transparent-button" href={largePartiesPdf}>
+                <FaExternalLinkAlt /> Stora sällskap
+            </a>
         )
     } else {
         showingContent = dishes
@@ -59,8 +63,8 @@ const Dishes = ({ dishes }) => {
     return (
         <div className="tab-content">
             <h2>{type}</h2>
-            {type === 'pasta' && typeDescriptionPasta}
-            {type === 'pizza' && typeDescriptionPizza}
+            {type === 'Pasta' && typeDescriptionPasta}
+            {type === 'Pizza' && typeDescriptionPizza}
             <div className="menu-content">{showingContent}</div>
         </div>
     )
