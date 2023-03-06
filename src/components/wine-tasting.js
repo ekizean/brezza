@@ -38,7 +38,18 @@ const WineTasting = () => (
 
                 <div className="wine-tasting--description">
                     <div>Vinprovning med tilltugg med sex olika viner från området</div>
-                    <div className="wine-tasting--price">825 kr/person</div>
+                    <div className="wine-tasting--price">865 kr/person</div>
+                </div>
+
+                <div className="wine-tasting--description">
+                    <div>
+                        -LA DOLCE VITA-
+                        <br />
+                        Det bästa av det mesta från de tre vindistrikten ovan. Här får ni bl.a.
+                        prova de konkurrerande toppvinerna Amarone, Barolo och Brunello Vinprovning
+                        med sex rätters middag med nio olika viner
+                    </div>
+                    <div className="wine-tasting--price">2295 kr/person</div>
                 </div>
 
                 <div className="wine-tasting--description">
