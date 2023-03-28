@@ -5,6 +5,7 @@ import './Dishes.scss'
 import scrollTo from 'gatsby-plugin-smoothscroll'
 import { FaExternalLinkAlt, FaAngleDoubleDown } from 'react-icons/fa'
 import wineListPdf from '../../static-resources/Brezza_vinlista.pdf'
+import grappaListPdf from '../../static-resources/Brezza_grappalista.pdf'
 import largePartiesPdf from '../../static-resources/Stora_sallskap.pdf'
 
 const Dishes = ({ type, dishes }) => {
@@ -29,6 +30,12 @@ const Dishes = ({ type, dishes }) => {
                     <FaExternalLinkAlt /> Vinlista
                 </a>
             </div>
+        )
+    } else if (type === 'grappa') {
+        showingContent = (
+            <a className="wine-list transparent-button" href={grappaListPdf}>
+                <FaExternalLinkAlt /> Grappalista
+            </a>
         )
     } else if (type === 'Stora sällskap') {
         showingContent = (
