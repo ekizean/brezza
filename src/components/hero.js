@@ -2,6 +2,7 @@ import React from 'react'
 import './hero.scss'
 import Logo from '../../svg/logo.svg'
 import BookButton from './book-button'
+import scrollTo from 'gatsby-plugin-smoothscroll'
 
 const Hero = () => (
     <div className="hero">
@@ -14,6 +15,9 @@ const Hero = () => (
             text="Avhämtning 10%"
             link="https://cloud.caspeco.se/public/webBooking?system=se_breupp&unitId=14&onlineorder=true"
         />
+        <button className="scroll-button" onClick={() => scrollTo('.wine-tasting')}>
+            VINPROVNINGAR
+        </button>
     </div>
 )
 export default Hero
