@@ -2,6 +2,7 @@ import React from 'react'
 import './wine-tasting.scss'
 import WineTastingDistrict from './wine-tasting-district'
 import WineTastingImage from './images/wine-tasting'
+import BookButton from './book-button'
 
 const WineTasting = () => (
     <div className="wine-tasting text-center section" id="wine-tasting">
@@ -30,34 +31,42 @@ const WineTasting = () => (
             <div className="col-sm-4">
                 <WineTastingImage />
             </div>
-            <div>
-                <div className="wine-tasting--description">
-                    <div>Vinprovning med fyra rätters middag med sex olika viner från området</div>
-                    <div className="wine-tasting--price">1495 kr/person</div>
-                </div>
-
-                <div className="wine-tasting--description">
-                    <div>Vinprovning med tilltugg med sex olika viner från området</div>
-                    <div className="wine-tasting--price">865 kr/person</div>
-                </div>
-
-                <div className="wine-tasting--description">
-                    <div>
-                        -LA DOLCE VITA-
-                        <br />
-                        Det bästa av det mesta från de tre vindistrikten ovan. Här får ni bl.a.
-                        prova de konkurrerande toppvinerna Amarone, Barolo och Brunello Vinprovning
-                        med sex rätters middag med nio olika viner
+            <div className="wine-tasting--offering">
+                <div className="wine-tasting--description-container">
+                    <div></div>
+                    <div className="wine-tasting--description">
+                        <div>
+                            Vinprovning med fyra rätters middag med sex olika viner från området
+                        </div>
+                        <div className="wine-tasting--price">1495 kr/person</div>
                     </div>
-                    <div className="wine-tasting--price">2295 kr/person</div>
-                </div>
 
-                <div className="wine-tasting--description">
-                    <div>
-                        Priserna gäller för sällskap om minst 4 personer. Vi ser gärna att alla
-                        personer i sällskapet väljer samma vindistrikt. Endast förhandsbokningar.
+                    <div className="wine-tasting--description">
+                        <div>Vinprovning med tilltugg med sex olika viner från området</div>
+                        <div className="wine-tasting--price">865 kr/person</div>
+                    </div>
+
+                    <div className="wine-tasting--description">
+                        <div>
+                            -LA DOLCE VITA-
+                            <br />
+                            Det bästa av det mesta från de tre vindistrikten ovan. Här får ni bl.a.
+                            prova de konkurrerande toppvinerna Amarone, Barolo och Brunello
+                            Vinprovning med sex rätters middag med nio olika viner
+                        </div>
+                        <div className="wine-tasting--price">2295 kr/person</div>
+                    </div>
+
+                    <div className="wine-tasting--description">
+                        <div>
+                            Priserna gäller för sällskap om minst 4 personer. Vi ser gärna att alla
+                            personer i sällskapet väljer samma vindistrikt. Endast
+                            förhandsbokningar.
+                        </div>
                     </div>
                 </div>
+
+                <BookButton text="Boka&nbsp;vinprovning" link="mailto:kontakt@brezza.se" />
             </div>
         </div>
     </div>

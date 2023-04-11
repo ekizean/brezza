@@ -8,10 +8,19 @@
 
 .wine-tasting--description {
     margin: 24px auto;
-    padding-left: 30px;
     max-width: 900px;
 }
 
 .wine-tasting--price {
     color: $secondary-color;
+}
+
+@media screen and (min-width: $desktop-width) {
+    .wine-tasting--offering {
+        padding-left: 30px;
+    }
+}
+
+.wine-tasting--description-container {
+    margin-bottom: 40px;
 }
