@@ -32,7 +32,7 @@ const WineTasting = () => (
                 <WineTastingImage />
             </div>
             <div className="wine-tasting--offering">
-                <div className="wine-tasting--description-container">
+                <div>
                     <div></div>
                     <div className="wine-tasting--description">
                         <div>

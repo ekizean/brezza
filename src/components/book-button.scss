@@ -1,11 +1,17 @@
 .book-button {
+    height: 48px;
     font-weight: 400;
     text-transform: uppercase;
-    text-align: center;
     text-decoration: none;
     background: #580000;
     color: #f4f0d9;
     padding: 10px 50px;
     margin-top: 10px;
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    letter-spacing: 1.6px;
+    width: fit-content;
 }

@@ -3,7 +3,7 @@ import './book-button.scss'
 
 const BookButton = ({ text, link }) => (
     <a className="book-button" href={link}>
-        {text}
+        <span>{text}</span>
     </a>
 )
 export default BookButton

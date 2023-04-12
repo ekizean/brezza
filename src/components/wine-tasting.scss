@@ -15,12 +15,14 @@
     color: $secondary-color;
 }
 
+.wine-tasting--offering {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media screen and (min-width: $desktop-width) {
     .wine-tasting--offering {
         padding-left: 30px;
     }
-}
-
-.wine-tasting--description-container {
-    margin-bottom: 40px;
 }

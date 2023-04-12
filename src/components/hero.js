@@ -15,8 +15,8 @@ const Hero = () => (
             text="Avhämtning 10%"
             link="https://cloud.caspeco.se/public/webBooking?system=se_breupp&unitId=14&onlineorder=true"
         />
-        <button className="scroll-button" onClick={() => scrollTo('.wine-tasting')}>
-            VINPROVNINGAR
+        <button className="book-button" onClick={() => scrollTo('.wine-tasting')}>
+            <span>VINPROVNINGAR</span>
         </button>
     </div>
 )
