@@ -61,3 +61,9 @@
         padding: 24px;
     }
 }
+
+@media only screen and (min-width: $mobile-width) {
+    .second {
+        line-height: 40px;
+    }
+}
