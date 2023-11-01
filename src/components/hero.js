@@ -22,11 +22,8 @@ const Hero = () => (
             <p className="ad first">Brezza fyller 5 år 🎉</p>
             <br />
             <p className="ad second">
-                <span>Det firas under hela oktober med 20% på AW vardagar 16 - 17,</span>
-                <br />
-                <span>vinprovningar onsdagar och torsdagar</span>
-                <br />
-                <span>samt hela notan på söndagar</span>
+                Det firas under hela oktober med 20% på AW vardagar 16 - 17, vinprovningar onsdagar
+                och torsdagar samt hela notan på söndagar
             </p>
         </div>
     </div>
