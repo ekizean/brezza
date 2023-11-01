@@ -5,9 +5,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // background-image: linear-gradient(to right, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    // url('../images/brezza-stor-matsal.jpg');
-    background-color: #580000;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        url('../images/brezza-stor-matsal.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -22,42 +21,8 @@
     max-width: 73%;
 }
 
-.ad {
-    text-align: center;
-}
-
-.first {
-    font-size: 40px;
-    font-weight: 600;
-}
-
-.second {
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.mouse {
-    cursor: pointer;
-}
-
-.october-text {
-    margin-top: 24px;
-}
-
 @media only screen and (max-width: $desktop-width) {
     .hero {
         background-position: 33% 41%;
-    }
-
-    .first {
-        font-size: 30px;
-    }
-
-    .second {
-        font-size: 16px;
-    }
-
-    .october-text {
-        padding: 24px;
     }
 }
