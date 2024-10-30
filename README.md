@@ -1,6 +1,7 @@
 ## Development
 
 ```
+nvm use
 npm run develop
 ```
 
