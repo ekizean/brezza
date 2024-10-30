@@ -1,7 +1,7 @@
 ## Development
 
 ```
-gatsby develop
+npm run develop
 ```
 
 `http://localhost:8000`!
