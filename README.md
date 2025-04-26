@@ -2,7 +2,8 @@
 
 ```
 nvm use
-npm run develop
+npm install
+npm run start
 ```
 
 `http://localhost:8000`!
