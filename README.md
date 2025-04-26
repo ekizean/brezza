@@ -3,7 +3,7 @@
 ```
 nvm use
 npm install
-npm run start
+npm start
 ```
 
 `http://localhost:8000`!
