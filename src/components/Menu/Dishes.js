@@ -6,7 +6,6 @@ import scrollTo from 'gatsby-plugin-smoothscroll'
 import { FaExternalLinkAlt, FaAngleDoubleDown } from 'react-icons/fa'
 import wineListPdf from '../../static-resources/Brezza_vinlista.pdf'
 import grappaListPdf from '../../static-resources/Brezza_grappalista.pdf'
-import largePartiesPdf from '../../static-resources/Stora_sallskap.pdf'
 
 const Dishes = ({ type, dishes }) => {
     function getDishMarkup(dish) {
@@ -37,12 +36,6 @@ const Dishes = ({ type, dishes }) => {
                 <FaExternalLinkAlt /> Grappalista
             </a>
         )
-        // } else if (type === 'Stora sällskap') {
-        //     showingContent = (
-        //         <a className="wine-list transparent-button" href={largePartiesPdf}>
-        //             <FaExternalLinkAlt /> Stora sällskap
-        //         </a>
-        //     )
     } else {
         showingContent = dishes
             .map(dish => {
