@@ -46,7 +46,7 @@ class Menu extends React.Component {
         const dishTypes = this.getUniqueDishTypes()
         dishTypes.push('Vin')
         dishTypes.push('grappa')
-        dishTypes.push('Stora sällskap')
+        // dishTypes.push('Stora sällskap')
 
         return (
             <div className="section" id="menu">

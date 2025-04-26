@@ -37,12 +37,12 @@ const Dishes = ({ type, dishes }) => {
                 <FaExternalLinkAlt /> Grappalista
             </a>
         )
-    } else if (type === 'Stora sällskap') {
-        showingContent = (
-            <a className="wine-list transparent-button" href={largePartiesPdf}>
-                <FaExternalLinkAlt /> Stora sällskap
-            </a>
-        )
+        // } else if (type === 'Stora sällskap') {
+        //     showingContent = (
+        //         <a className="wine-list transparent-button" href={largePartiesPdf}>
+        //             <FaExternalLinkAlt /> Stora sällskap
+        //         </a>
+        //     )
     } else {
         showingContent = dishes
             .map(dish => {
