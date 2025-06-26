@@ -3,13 +3,13 @@
         "type": "Antipasti",
         "price": "175:-",
         "dishName": "Pane all'aglio con Olivia e Parmiggiano-Reggiano",
-        "description": "Vedugnsbakat vitlöksbröd gratinerat med mozzarella, serveras med parmesan, oliver och rostad auberginekräm"
+        "description": "Vedugnsbakat vitlöksbröd gratinerat med mozzarella, serveras med parmesan, oliver och rostad zucchinikräm"
     },
     {
         "type": "Antipasti",
         "price": "235:-",
-        "dishName": "Carpaccio di Cervo",
-        "description": "Bankad hjortfilé, smulad pecorino, rostade hasselnötter, senapsinlagda oliver och svart vitlöksemulsion"
+        "dishName": "Tartar di Vitello",
+        "description": "Tartar på kalv, Taleggiokräm, friterad kapris, picklad schalottenlök och krispiga rotsaker"
     },
     {
         "type": "Antipasti",
@@ -19,39 +19,39 @@
     },
     {
         "type": "Antipasti",
-        "price": "245:-",
-        "dishName": "Capesante e Carciofo di Gerusalemme",
-        "description": "Halstrad pilgrimsmussla, jordärtskockspuré, jordärtskockschips, friterad brysselkål,pancetta och havtornssorbet"
+        "price": "195:-",
+        "dishName": "Pulpo frito",
+        "description": "Friterad bläckfisk, pesto och semitorkade tomater"
     },
     {
         "type": "Antipasti",
         "price": "195:-",
         "dishName": "Arancino",
-        "description": "Friterade risottobollar med mozzarella, rostad auberginekräm och parmiggiano"
+        "description": "Friterade risottobollar soltorkad tomat, rostad zucchinikräm och parmiggiano"
     },
     {
         "type": "Antipasti",
         "price": "195:-",
-        "dishName": "Burrata con verdure griliate",
-        "description": "Burrata med grillade grönsaker, pesto och oliver"
+        "dishName": "Burrata caprese",
+        "description": "Burrata, tomat och basilika"
     },
     {
         "type": "Antipasti",
-        "price": "235:-",
+        "price": "195:-",
         "dishName": "Gamberi piccante",
-        "description": "Vitlök- och chilifrästa FOS-tigerräkor med grillat bröd"
+        "description": "Vitlök- och chilifrästa FOS-tigerräkor"
+    },
+    {
+        "type": "Antipasti",
+        "price": "85:-",
+        "dishName": "Insalata piccola",
+        "description": "Romansallad med körsbärstomater och picklad lök"
     },
     {
         "type": "Antipasti",
         "price": "195:-",
-        "dishName": "Tortellini con Frutti di Mare",
-        "description": "Handgjord tortellini fylld med räkor och pilgrimsmussla, hummersås och timjan"
-    },
-    {     
-        "type": "Pasta",
-        "price": "275:-",
-        "dishName": "Gnocchi di casa Brezza",
-        "description": "Gnocchi med salsicciafärs, nduja calabrese, soltorkade tomater, ruccola och parmesan"
+        "dishName": "Bresaola",
+        "description": "Bresoala, ruccola, parmesan, pinjenötter och citron"
     },
     {
         "type": "Pasta",
@@ -63,7 +63,7 @@
         "type": "Pasta",
         "price": "295:-",
         "dishName": "Cappeli d'Angelo con Gamberi e Cozze",
-        "description": "Capelli d'Angelo med vitlökfrästa FOS-tigerräkor, blancherade musslor,spenat, och färsk chili"
+        "description": "Capelli d'Angelo med vitlökfrästa FOS-tigerräkor, blancherade musslor"
     },
     {
         "type": "Pasta",
@@ -75,13 +75,13 @@
         "type": "Pasta",
         "price": "285:-",
         "dishName": "Vitello e Gorgonzola",
-        "description": "Tagliatelle med kalvfilé, aubergine,örtslungad svamp, gorgonzola och tomatsås"
+        "description": "Tagliatelle med kalvfilé, örtslungad svamp, gorgonzola och tomatsås"
     },
     {
         "type": "Pasta",
-        "price": "285:-",
-        "dishName": "Pappardelle con ragú di manzo ",
-        "description": "Pappardelle med oxkindsragu, chili, salami calabresechips och stracciatella"
+        "price": "275:-",
+        "dishName": "Gnocchi di Casa Brezza",
+        "description": "Gnocchi med salsicciafärs, `nduja Calabrese, soltorkade tomater, ruccola och parmesan"
     },
     {
         "type": "Pizza",
@@ -121,9 +121,9 @@
     },
     {
         "type": "Pizza",
-        "price": "175:-",
-        "dishName": "Siciliana",
-        "description": "Tomatsås, mozzarella, sardeller, oliver och oregano"
+        "price": "165:-",
+        "dishName": "Napolitana",
+        "description": "Tomatsås, mozzarella, sardeller, kapris och oregano"
     },
     {
         "type": "Pizza",
@@ -141,13 +141,13 @@
         "type": "Pizza",
         "price": "205:-",
         "dishName": "Brezza",
-        "description": "Tomatsås, mozzarella, friarielli, salsicciafärs med 'nduja calabrese, salamino, rostad paprika & lök"
+        "description": "Tomatsås, mozzarella, friarielli, salsicciafärs med 'nduja calabrese, salamino och lök"
     },
     {
         "type": "Pizza",
-        "price": "215:-",
-        "dishName": "Pancetta Fiamma",
-        "description": "Mozzarella, friarielli, pancetta, ägg och pinjenötter"
+        "price": "205:-",
+        "dishName": "Bresaola Fantasia",
+        "description": "inbakad stracchino, bresaola, ruccola, parmiggiano, pinjenötter, och citron"
     },
     {
         "type": "Pizza",
@@ -169,45 +169,39 @@
     },
     {
         "type": "Pizza",
-        "price": "205:-",
-        "dishName": "Tonno ruccola",
-        "description": "Tomatsås, Mozzarella, tonfisk, ruccola och citron"
+        "price": "195:-",
+        "dishName": "Stracchino Al Forno",
+        "description": "Inbakad Stracchino, Ruccola, körsbärstomater, pinjenötter och balsamico"
     },
     {
         "type": "Pizza",
         "price": "205:-",
-        "dishName": "Pizza Al Cotto ",
+        "dishName": "Pizza Al Cotto",
         "description": "Tomatsås, mozzarella, Prosciutto Cotto, kronärtskocka, parmesan och soltorkade tomater"
+    },
+    {
+        "type": "Insalata",
+        "price": "235:-",
+        "dishName": "Insalata Caesar",
+        "description": "Caesarsallad med val av Burrata, Chark eller Skaldjur"
     },
     {
         "type": "Secondi",
         "price": "385:-",
         "dishName": "Tournedos di Vitello",
-        "description": "Kalvfilé tournedos, märgsmör, körsbärsrödvinssky och potatiskaka med peccorino samt örter"
+        "description": "Kalvfilé tournedos, märgsmör, rostade primörer och potatis samt körsbärsrödvinsskyr"
     },
     {
         "type": "Secondi",
         "price": "375:-",
-        "dishName": "Dorada ",
-        "description": "Smörstekt guldsparid, krämig polenta, sockerärtor, rödbeta, kapris och Marsalasky"
+        "dishName": "Meagre",
+        "description": "Lättgrillad Havsgös, potatis och primörsallad, kaprisgremolata och krisp på grönkål"
     },
     {
         "type": "Secondi",
         "price": "375:-",
-        "dishName": "Ossobuco di Agnello",
-        "description": "Nattbakad lammlägg, rosenkål, pärllök, pancetta, rödvinssås samt jordärtskocks- och potatispure"
-    },
-    {
-        "type": "Secondi",
-        "price": "375:-",
-        "dishName": "Risotto ai Frutti di Mare",
-        "description": "Hummerfondsrisotto med blåmusslor, FOS-tigerräkor, pilgrimsmussla och grönkålschips"
-    },
-    {
-        "type": "Secondi",
-        "price": "285:-",
-        "dishName": "Portabello al Forno ",
-        "description": "Risotto med portabello, friterad örtmarinerad ostronskivling och vedugnsbakad paprika"
+        "dishName": "Saltimbocca",
+        "description": "Bankad kalvfilé, rostade primörer och potatis, bakad tomat, prosciuttochips samt salviasky"
     },
     {
         "type": "Dolci",
@@ -218,20 +212,20 @@
     {
         "type": "Dolci",
         "price": "135:-",
-        "dishName": "Sinfonia di Cioccolato",
-        "description": "Chokladsmul, chokladskum, dulce di leche, gorgonzolachokladchips och vispad mascarpone med vitchoklad"
+        "dishName": "Torta di amaretto ",
+        "description": "Smörstekt sockerkaka, amarettoglass, körbärskompott"
     },
     {
         "type": "Dolci",
         "price": "135:-",
-        "dishName": "Torta di noce pecan ",
-        "description": "Smörstekt pekannötskaka, pekannötsglass, körbärskompott och kolasås med rosmarin"
+        "dishName": "Pannacotta di limone e fragole ",
+        "description": "Vaniljpannacotta, lemoncurd, jordgubbar och toscakrisp"
     },
     {
         "type": "Dolci",
         "price": "135:-",
-        "dishName": "Pannacotta di Pera ",
-        "description": "Päronpannacotta, bakade päron, kanderade rotfruktschips och hallonkrisp"
+        "dishName": "Sorbetto spumante  ",
+        "description": "Äppel och basilikasorbet, prosecco, italiensk maräng och cantuccinismul"
     },
     {
         "type": "Dolci",
@@ -257,10 +251,11 @@
         "dishName": "Affogato",
         "description": "Vaniljglass toppad med espresso"
     },
-    {   "type": "Dolci",
+    {
+        "type": "Dolci",
         "price": "60:-/110:-",
         "dishName": "Gelato/Sorbetto",
-        "description": "Välj mellan vaniljglass, valnötsglass, blodapelsinsorbet eller basilikla/jordgubbssorbet"
+        "description": "Välj mellan vaniljglass, amarettoglass, blodapelsinsorbet eller äpple/basilikasorbet"
     },
     {
         "type": "Dolci",
@@ -276,17 +271,17 @@
     },
     {
         "type": "Avsmakning",
-        "price": "965:-",
-        "dishName": "Capesante e Carciofo di Gerusalemme,\r\nCarpaccio di Cervo,\r\nRavioli Con Funghi,\r\nTournedos di Vitello,\r\nPiatto Misto di Formaggi,\r\nSorbetto,\r\nTorta di noce pecan",
+        "price": "865:-",
+        "dishName": "Aranchino,\r\nTarta di vitello,\r\nRavioli Con Funghi,\r\nTournedos di Vitello,\r\nPiatto Misto di Formaggi,\r\nSorbetto spumante,\r\nTartufo al cioccolato e cioccolato é pistacchi",
         "description": "minst två personer",
         "packageName": "Sju rätter",
         "wineName": "Vinpaket",
-        "winePrice": "895:-"
+        "winePrice": "795:-"
     },
     {
-        "type": "Avsmakning",
-        "price": "665:-",
-        "dishName": "Arancino,\r\nOssobuco di Agnello eller Dorada,\r\nPannacotta di Pera",
+        "type": "Italiano Classico ",
+        "price": "675:-",
+        "dishName": "AraPiatto Misto di Salumi,\r\nSaltimbocca eller Meagre,\r\nTiramisu",
         "packageName": "Tre rätter",
         "wineName": "Vinpaket",
         "winePrice": "525:-"
