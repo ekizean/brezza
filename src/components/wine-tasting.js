@@ -54,7 +54,7 @@ const WineTasting = () => (
                             prova de konkurrerande toppvinerna Amarone, Barolo och Brunello
                             Vinprovning med sex rätters middag med nio olika viner
                         </div>
-                        <div className="wine-tasting--price">2295 kr/person</div>
+                        <div className="wine-tasting--price">3225 kr/person</div>
                     </div>
 
                     <div className="wine-tasting--description">
